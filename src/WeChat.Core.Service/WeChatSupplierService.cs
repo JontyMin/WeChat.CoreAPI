@@ -29,8 +29,10 @@ namespace WeChat.Core.Service
         private readonly ISendMessage _sendMessage;
         private readonly IWeChatSDK _weChat;
         private readonly IMapper _mapper;
+        private IWeChatSupplyProductImgRepository _weChatSupplyProductImg;
 
         public WeChatSupplierService(IBaseRepository<WeChatSupplier> baseRepository,
+            IWeChatSupplyProductImgRepository weChatSupplyProductImg,
             IWeChatSupplierRepository chatSupplierRepository, 
             ISendMessage sendMessage,
             IMapper mapper, 
@@ -41,6 +43,7 @@ namespace WeChat.Core.Service
             _sendMessage = sendMessage ?? throw new ArgumentNullException(nameof(sendMessage));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
             _weChat = weChat ?? throw new ArgumentNullException(nameof(weChat));
+            _weChatSupplyProductImg = weChatSupplyProductImg;
         }
 
         /// <summary>
@@ -50,6 +53,9 @@ namespace WeChat.Core.Service
         /// <returns></returns>
         public async Task<int> CreateSupplier(ApplySettledViewModel model)
         {
+
+            //var imgs = await _weChatSupplyProductImg.Query();
+
             var supplier = _mapper.Map<ApplySettledViewModel,WeChatSupplier>(model);
 
             

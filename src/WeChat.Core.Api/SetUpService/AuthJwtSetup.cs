@@ -37,7 +37,6 @@ namespace WeChat.Core.Api.SetUpService
                 RequireExpirationTime = true,
             };
 
-            //2.1【认证】、core自带官方JWT认证
             // 开启Bearer认证
             services.AddAuthentication("Bearer")
              // 添加JwtBearer服务

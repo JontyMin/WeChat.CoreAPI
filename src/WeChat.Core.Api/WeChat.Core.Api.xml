@@ -273,7 +273,7 @@
             递归树
             </summary>
             <param name="listDataSource"></param>
-            <param name="parentID"></param>
+            <param name="parentId"></param>
             <returns></returns>
         </member>
         <member name="M:WeChat.Core.Api.Controllers.ProductController.GetTreeMod(System.Collections.Generic.List{WeChat.Core.Model.EntityModel.ERP.CategoryFormEbayUK},System.String)">
@@ -281,7 +281,7 @@
             递归树
             </summary>
             <param name="listDataSource"></param>
-            <param name="parentID"></param>
+            <param name="parentId"></param>
             <returns></returns>
         </member>
         <member name="T:WeChat.Core.Api.Controllers.WeChatAPIController">
@@ -785,6 +785,31 @@
             时间戳
             </summary>
         </member>
+        <member name="T:WeChat.Core.Api.Middleware.Swagger.Grouping">
+            <summary>
+            接口分组
+            </summary>
+        </member>
+        <member name="F:WeChat.Core.Api.Middleware.Swagger.Grouping.GroupNameV1">
+            <summary>
+            供应商接口组
+            </summary>
+        </member>
+        <member name="F:WeChat.Core.Api.Middleware.Swagger.Grouping.GroupNameV2">
+            <summary>
+            微信公众号接口组
+            </summary>
+        </member>
+        <member name="F:WeChat.Core.Api.Middleware.Swagger.Grouping.GroupNameV3">
+            <summary>
+            uni-app接口组
+            </summary>
+        </member>
+        <member name="F:WeChat.Core.Api.Middleware.Swagger.Grouping.GroupNameV4">
+            <summary>
+            授权接口组
+            </summary>
+        </member>
         <member name="M:WeChat.Core.Api.SetUpService.AutofacModuleRegister.Load(Autofac.ContainerBuilder)">
             <summary>
             重写Load函数
@@ -801,6 +826,44 @@
             注册Autofac容器
             </summary>
             <param name="builder"></param>
+        </member>
+        <member name="F:WeChat.Core.Common.Swagger.SwaggerExtensions.description">
+            <summary>
+            Swagger描述信息
+            </summary>
+        </member>
+        <member name="F:WeChat.Core.Common.Swagger.SwaggerExtensions.ApiInfos">
+            <summary>
+            Swagger分组信息，遍历使用
+            </summary>
+        </member>
+        <member name="M:WeChat.Core.Common.Swagger.SwaggerExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            AddSwagger
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeChat.Core.Common.Swagger.SwaggerExtensions.UseSwaggerUI(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            UseSwaggerUI
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="P:WeChat.Core.Common.Swagger.SwaggerApiInfo.UrlPrefix">
+            <summary>
+            Url前缀
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Common.Swagger.SwaggerApiInfo.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Common.Swagger.SwaggerApiInfo.OpenApiInfo">
+            <summary>
+            <see cref="T:Microsoft.OpenApi.Models.OpenApiInfo"/>
+            </summary>
         </member>
     </members>
 </doc>

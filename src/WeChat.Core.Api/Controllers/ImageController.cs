@@ -20,9 +20,12 @@ namespace WeChat.Core.Api.Controllers
     /// <summary>
     /// 图片上传
     /// </summary>
-    [Route("api/[controller]")]
-    [ApiController]
+   
+    
     [Authorize]
+    [ApiController]
+    [Route("api/[controller]")]
+    [ApiExplorerSettings(GroupName = "Supplier")]
     public class ImageController : Controller
     {
         private readonly string Domain = AppSettings.app(new string[] { "AppSettings", "Qiniu", "Domain" });

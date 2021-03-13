@@ -22,9 +22,10 @@ namespace WeChat.Core.Api.Controllers
     /// <summary>
     /// 仓储Uni-App API
     /// </summary>
-    [Route("api/[controller]")]
-    [ApiController]
     [Authorize]
+    [ApiController]
+    [Route("api/[controller]")]
+    [ApiExplorerSettings(GroupName = "UniApp")]
     public class DepotController : ControllerBase
     {
         private readonly IStockOperateRecordService _stockOperateRecordService;

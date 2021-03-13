@@ -12,8 +12,9 @@ namespace WeChat.Core.Api.Controllers
     /// <summary>
     /// 微信登录授权
     /// </summary>
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
+    [ApiExplorerSettings(GroupName = "Auth")]
     public class WeChatAuthController : ControllerBase
     {
         private readonly IWeChatSDK _weChatSdk;

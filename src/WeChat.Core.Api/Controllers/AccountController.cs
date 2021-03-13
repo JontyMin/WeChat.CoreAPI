@@ -23,10 +23,11 @@ namespace WeChat.Core.Api.Controllers
     /// <summary>
     /// 供应商入驻(无权限)
     /// </summary>
-    [Route("api/[controller]")]
-    [Produces("application/json")]
     [ApiController]
     [AllowAnonymous]
+    [Route("api/[controller]")]
+    [Produces("application/json")]
+    [ApiExplorerSettings(GroupName = "Auth")]
     public class AccountController : ControllerBase
     {
         private readonly IWeChatSupplierService _weChatSupplierService;

@@ -19,13 +19,14 @@ namespace WeChat.Core.Api.Controllers
     /// <summary>
     /// apk 安装包控制器
     /// </summary>
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
+    [ApiExplorerSettings(GroupName = "UniApp")]
     public class ApkController : ControllerBase
     {
 
-        private readonly string Version = AppSettings.app(new string[] {"AppSettings", "Apk", "Version"});
-        private readonly string ApkPath = AppSettings.app(new string[] {"AppSettings", "Apk", "ApkFilePath" });
+        private readonly string _version = AppSettings.app(new string[] {"AppSettings", "Apk", "Version"});
+        private readonly string _apkPath = AppSettings.app(new string[] {"AppSettings", "Apk", "ApkFilePath" });
         private readonly IHostEnvironment _hostEnvironment;
 
 
@@ -61,7 +62,7 @@ namespace WeChat.Core.Api.Controllers
             string webRootPath = _hostEnvironment.ContentRootPath;
             
             string fileName = "Depot.apk";
-            string filePath = webRootPath + ApkPath;
+            string filePath = webRootPath + _apkPath;
             DirectoryInfo directory = new DirectoryInfo(filePath);
 
             if (!directory.Exists)
@@ -90,7 +91,7 @@ namespace WeChat.Core.Api.Controllers
         [HttpGet("{version}")]
         public IActionResult Get(string version)
         {
-            if (version == Version)
+            if (version == _version)
             {
                 return Ok(new {result = false});
             }
@@ -107,7 +108,7 @@ namespace WeChat.Core.Api.Controllers
         public async Task<IActionResult> Download()
         {
             string webRootPath = _hostEnvironment.ContentRootPath;
-            string filePath = webRootPath + ApkPath + "Depot.apk";
+            string filePath = webRootPath + _apkPath + "Depot.apk";
             await using var fs = new FileStream(filePath, FileMode.Open);
             byte[] bytes = new byte[fs.Length];
             await fs.ReadAsync(bytes, 0, bytes.Length);

@@ -15,8 +15,9 @@ namespace WeChat.Core.Api.Controllers
     /// <summary>
     /// 微信公众号 动态订单和销量报表
     /// </summary>
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
+    [ApiExplorerSettings(GroupName = "WeChat")]
     public class DynamicsController : ControllerBase
     {
 

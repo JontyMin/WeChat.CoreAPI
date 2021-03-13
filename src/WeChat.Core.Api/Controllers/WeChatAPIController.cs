@@ -25,9 +25,10 @@ namespace WeChat.Core.Api.Controllers
     /// <summary>
     /// 微信后台API
     /// </summary>
-    [Route("api/[controller]")]
-    [ApiController]
     [Authorize]
+    [ApiController]
+    [Route("api/[controller]")]
+    [ApiExplorerSettings(GroupName = "WeChat")]
     public class WeChatAPIController : ControllerBase
     {
         private readonly IWeChatSDK _weChatSdk;

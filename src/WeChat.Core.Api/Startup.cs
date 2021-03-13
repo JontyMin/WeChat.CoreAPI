@@ -29,6 +29,7 @@ using Quartz.Impl;
 using Quartz.Spi;
 using Swashbuckle.AspNetCore.Filters;
 using Swashbuckle.AspNetCore.Swagger;
+using Swashbuckle.AspNetCore.SwaggerUI;
 using WeChat.Core.Api.Authorization;
 using WeChat.Core.Api.Filter;
 using WeChat.Core.Api.Jobs;
@@ -126,12 +127,28 @@ namespace WeChat.Core.Api
             });
             #region Swagger
 
-            services.AddSwaggerGen(t =>
+            services.AddSwaggerGen(options =>
             {
-                t.SwaggerDoc("v1", new OpenApiInfo
+                // options.SwaggerDoc("v1", new OpenApiInfo
+                // {
+                //     Title = "WeChat.Core.Api",
+                //     Version = "v1",
+                //     Description = "Guangzhou lianzhou e-commerce WeChat API",
+                //     Contact = new OpenApiContact()
+                //     {
+                //         Name = "Jonty Wang",
+                //         Email = "wangjintao@lianzhoukuajing.cn"
+                //     },
+                //     License = new OpenApiLicense()
+                //     {
+                //         Name = "Apache-2.0 License"
+                //     }
+                // });
+
+                options.SwaggerDoc("Auth", new OpenApiInfo()
                 {
-                    Title = "WeChat.Core.Api",
-                    Version = "v1",
+                    Title = "授权接口",
+                    Version = "Auth",
                     Description = "Guangzhou lianzhou e-commerce WeChat API",
                     Contact = new OpenApiContact()
                     {
@@ -143,19 +160,67 @@ namespace WeChat.Core.Api
                         Name = "Apache-2.0 License"
                     }
                 });
-
-                t.OrderActionsBy(x=>x.RelativePath);
+                options.SwaggerDoc("Supplier", new OpenApiInfo()
+                {
+                    Title = "供应商接口", 
+                    Version = "Supplier",
+                    Description = "Guangzhou lianzhou e-commerce WeChat API",
+                    Contact = new OpenApiContact()
+                    {
+                        Name = "Jonty Wang",
+                        Email = "wangjintao@lianzhoukuajing.cn"
+                    },
+                    License = new OpenApiLicense()
+                    {
+                        Name = "Apache-2.0 License"
+                    }
+                });
+                options.SwaggerDoc("WeChat", new OpenApiInfo()
+                {
+                    Title = "公众号接口", 
+                    Version = "WeChat",
+                    Description = "Guangzhou lianzhou e-commerce WeChat API",
+                    Contact = new OpenApiContact()
+                    {
+                        Name = "Jonty Wang",
+                        Email = "wangjintao@lianzhoukuajing.cn"
+                    },
+                    License = new OpenApiLicense()
+                    {
+                        Name = "Apache-2.0 License"
+                    }
+                });
+                options.SwaggerDoc("UniApp", new OpenApiInfo()
+                {
+                    Title = "uni-app接口", 
+                    Version = "UniApp",
+                    Description = "Guangzhou lianzhou e-commerce WeChat API",
+                    Contact = new OpenApiContact()
+                    {
+                        Name = "Jonty Wang",
+                        Email = "wangjintao@lianzhoukuajing.cn"
+                    },
+                    License = new OpenApiLicense()
+                    {
+                        Name = "Apache-2.0 License"
+                    }
+                });
+                
+                
+                
+                
+                options.OrderActionsBy(x=>x.HttpMethod);
                 
                 // 为 Swagger JSON and UI设置xml文档注释路径
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, "WeChat.Core.Api.xml");
-                t.IncludeXmlComments(xmlPath,true);
+                options.IncludeXmlComments(xmlPath,true);
 
 
                 var xmlPathModel = Path.Combine(AppContext.BaseDirectory, "WeChat.Core.Model.xml");
-                t.IncludeXmlComments(xmlPathModel,true);
+                options.IncludeXmlComments(xmlPathModel,true);
 
-                t.OperationFilter<SecurityRequirementsOperationFilter>();
-                t.AddSecurityDefinition("oauth2",new OpenApiSecurityScheme()
+                options.OperationFilter<SecurityRequirementsOperationFilter>();
+                options.AddSecurityDefinition("oauth2",new OpenApiSecurityScheme()
                 {
                     Description = "JWT授权(数据将在请求头中进行传输) 直接在下框中输入Bearer {token}（注意两者之间是一个空格）\"",
                     Name = "Authorization",//jwt默认的参数名称
@@ -182,6 +247,8 @@ namespace WeChat.Core.Api
             // IP请求限制服务
             services.AddIpPolicyRateLimitSetup(Configuration);
 
+
+            #region Cache缓存
             services.AddMemoryCache(options =>
             {
                 //缓存满了时候压缩20%的优先级较低的数据
@@ -190,11 +257,15 @@ namespace WeChat.Core.Api
                 //options.ExpirationScanFrequency = TimeSpan.FromSeconds(20);
 
             });
-            
             services.AddSingleton<IMemoryCacheService, MemoryCacheService>();
+            
             //注册Redis
             services.AddSingleton<IRedisCacheManager, RedisCacheManager>();
+            #endregion
 
+
+            #region Quartz定时任务
+           
             // Quartz
             services.AddSingleton<QuartzStartup>();
             services.AddTransient<TokenRefreshJob>();
@@ -202,7 +273,10 @@ namespace WeChat.Core.Api
             services.AddSingleton<ISchedulerFactory, StdSchedulerFactory>();//注册ISchedulerFactory的实例。
             services.AddSingleton<QuartzStartup>();
             services.AddSingleton<IJobFactory, IOCJobFactory>();
-
+            
+            #endregion
+            
+            
             // 微信授权注入
             services.AddScoped<IWeChatSDK, WeChatSDK>();
             services.AddScoped<ISendMessage, SendMessage>();
@@ -246,10 +320,24 @@ namespace WeChat.Core.Api
             #region Swagger UI
 
             app.UseSwagger();
-            app.UseSwaggerUI(t =>
+            app.UseSwaggerUI(options =>
             {
-                t.SwaggerEndpoint("/swagger/v1/swagger.json", "WeChat.Core.Api v1");
-                t.RoutePrefix = string.Empty;
+                // options.SwaggerEndpoint("/swagger/v1/swagger.json", "WeChat.Core.Api v1");
+                options.SwaggerEndpoint("/swagger/Auth/swagger.json", "授权接口");
+                options.SwaggerEndpoint("/swagger/Supplier/swagger.json", "供应商接口");
+                options.SwaggerEndpoint("/swagger/WeChat/swagger.json", "公众号接口");
+                options.SwaggerEndpoint("/swagger/UniApp/swagger.json", "uni-app接口");
+                
+                
+                
+                // API前缀设置为空
+                options.RoutePrefix = string.Empty;
+                // 模型的默认扩展深度，设置为 -1 完全隐藏模型
+                options.DefaultModelsExpandDepth(-1);
+                // API文档仅展开标记
+                options.DocExpansion(DocExpansion.List);
+                // API文档仅展开标记
+                options.DocumentTitle = "LZ.CoreAPI";
             });
             
             #endregion

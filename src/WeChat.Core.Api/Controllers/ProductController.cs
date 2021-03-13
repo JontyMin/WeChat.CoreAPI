@@ -25,9 +25,10 @@ namespace WeChat.Core.Api.Controllers
     /// <summary>
     /// 供应商产品
     /// </summary>
-    [Route("api/[controller]")]
-    [ApiController]
     [Authorize]
+    [ApiController]
+    [Route("api/[controller]")]
+    [ApiExplorerSettings(GroupName = "Supplier")]
     public class ProductController : ControllerBase
     {
         private const string PRODUCT_CACHE_KEY = "product";

@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-using WeChat.Core.Common.WeChat.ChatRobot;
-using static System.TimeZone;
+using WeChat.Core.Common.Helper;
 
 namespace WeChat.Core.Common.WeChat.Reply
 {
@@ -82,7 +81,7 @@ namespace WeChat.Core.Common.WeChat.Reply
             {
                 ToUserName = dict["FromUserName"],
                 FromUserName = dict["ToUserName"],
-                CreateTime = Timestamp().ToString()
+                CreateTime = UnixConvert.ToUnixTimestampBySeconds(DateTime.Now).ToString()
             };
             result = message.ToXml();
         }
@@ -93,7 +92,7 @@ namespace WeChat.Core.Common.WeChat.Reply
             {
                 ToUserName = dict["FromUserName"],
                 FromUserName = dict["ToUserName"],
-                CreateTime = Timestamp().ToString(),
+                CreateTime = UnixConvert.ToUnixTimestampBySeconds(DateTime.Now).ToString(),
                 Count = 1,
                 Title = "企业文化",
                 Description = "联洲电子商务有限公司简介",
@@ -125,7 +124,7 @@ namespace WeChat.Core.Common.WeChat.Reply
             {
                 ToUserName = dict["FromUserName"],
                 FromUserName = dict["ToUserName"],
-                CreateTime = Timestamp().ToString(),
+                CreateTime = UnixConvert.ToUnixTimestampBySeconds(DateTime.Now).ToString(),
                 Content = builder.ToString()
                     
             };
@@ -152,16 +151,6 @@ namespace WeChat.Core.Common.WeChat.Reply
             }
 
             return result;
-        }
-
-        /// <summary>
-        /// DateTime时间格式转换为Unix时间戳格式
-        /// </summary>
-        /// <returns>Unix时间戳格式  单位：毫秒</returns>
-        private static long Timestamp()
-        {
-            DateTime startTime = CurrentTimeZone.ToLocalTime(new DateTime(1970, 1, 1));
-            return (long)(DateTime.Now - startTime).TotalSeconds * 1000;
         }
 
         #endregion
