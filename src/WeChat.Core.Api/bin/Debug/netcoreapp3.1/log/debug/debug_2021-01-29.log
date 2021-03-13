@@ -1,0 +1,297 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-01-29 09:30:47,423                                   
+【执行时间】[1505]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:7200
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-01-29 09:30:47,459                                   
+【执行时间】[1542]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存41_SW7ctvnGTUVkcUhK2bCfi5oQbQlt3KI2-9ESj2Mq7xlkPucI1_euc0gVaa_o5hBfZsUzS_YGFwr4kbnbARVC-O-zjU68VoV-Ve3PUp2fbsXgSEmKPNOfzwTaZs9Op3CEVrsV-semD4MQQhMZDIDiAEATYT
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-01-29 10:08:23,861                                   
+【执行时间】[1103]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存41_SW7ctvnGTUVkcUhK2bCfi5oQbQlt3KI2-9ESj2Mq7xlkPucI1_euc0gVaa_o5hBfZsUzS_YGFwr4kbnbARVC-O-zjU68VoV-Ve3PUp2fbsXgSEmKPNOfzwTaZs9Op3CEVrsV-semD4MQQhMZDIDiAEATYT
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-29 10:08:38,774                                   
+【执行时间】[16016]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"yyyyy","passWord":"123456"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-29 10:08:39,792                                   
+【执行时间】[17033]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMjQiLCJqdGkiOiIyNCIsImlhdCI6IjE2MTE4ODYxMTkiLCJuYmYiOiIxNjExODg2MTE5IiwiZXhwIjoiMTYxMTg5MzMxOSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvZXhwaXJhdGlvbiI6IjAxLzI5LzIwMjEgMTI6MDg6MzkiLCJpc3MiOiJKb250eVdhbmciLCJhdWQiOiJTdXBwbGllciIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InN1cHBsaWVyIn0.ue2WGDPZTdQ2LWc8vyOYyK4qevx9Q22SAM2lM14jOFo",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-29 10:08:58,597                                   
+【执行时间】[35838]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Product GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-29 10:08:58,783                                   
+【执行时间】[36024]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": [
+    {
+      "id": 15,
+      "cname": "1",
+      "uname": "2",
+      "property": "3",
+      "weight": 4,
+      "length": 1,
+      "width": 2,
+      "height": 3,
+      "quote": 1.0000,
+      "productLink": "1",
+      "shopLink": "1",
+      "cdescribe": "1",
+      "udescribe": "1",
+      "state": 1,
+      "createTime": "2021-01-29T09:56:30.48",
+      "updateTime": "2021-01-29T09:56:30.48",
+      "images": [
+        {
+          "id": 51,
+          "imageUrl": "https://cdn.jonty.top/LZc51d9605-768a-472d-aa5b-a604a5a30e16.jpeg"
+        }
+      ]
+    }
+  ]
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-29 10:09:07,844                                   
+【执行时间】[45085]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-29 10:09:07,870                                   
+【执行时间】[45111]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExODg2MTQ3IiwibmJmIjoiMTYxMTg4NjE0NyIsImV4cCI6IjE2MTE4OTMzNDciLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yOS8yMDIxIDEyOjA5OjA3IiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.7Mtr1SEpV7JlknH_UclxGCDrcGnLKHcoLr9JRRDQoY8",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-29 10:09:20,923                                   
+【执行时间】[58165]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Product GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-29 10:09:21,070                                   
+【执行时间】[58311]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": [
+    {
+      "id": 8,
+      "cname": "最强皮鞋",
+      "uname": "最强皮鞋 The strongest leather shoes",
+      "property": "Black",
+      "weight": 500,
+      "length": 1,
+      "width": 2,
+      "height": 1,
+      "quote": 1.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "2",
+      "cdescribe": "1",
+      "udescribe": "1",
+      "state": 1,
+      "createTime": "2021-01-21T12:03:40.27",
+      "updateTime": "2021-01-21T12:03:40.27",
+      "images": [
+        {
+          "id": 33,
+          "imageUrl": "https://cdn.jonty.top/LZ320df469-14f8-4fcd-8d4f-8565af59108b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "cname": "足球",
+      "uname": "1231",
+      "property": "黑白",
+      "weight": 50,
+      "length": 10,
+      "width": 20,
+      "height": 10,
+      "quote": 35.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "12345",
+      "cdescribe": "好玩诺",
+      "udescribe": "asda",
+      "state": 1,
+      "createTime": "2021-01-26T16:36:03.417",
+      "updateTime": "2021-01-26T16:36:03.417",
+      "images": [
+        {
+          "id": 35,
+          "imageUrl": "https://cdn.jonty.top/LZ7add55e1-0a29-48ca-addc-f4fee07efe62.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "cname": "test",
+      "uname": "",
+      "property": "wjkwkwkwkkw",
+      "weight": 12,
+      "length": 12,
+      "width": 12,
+      "height": 13,
+      "quote": 12.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "wkwkkwkwkkw",
+      "cdescribe": "jejwjjwnwnwwmmmm",
+      "udescribe": "",
+      "state": 1,
+      "createTime": "2021-01-21T15:13:45.45",
+      "updateTime": "2021-01-21T15:13:45.45",
+      "images": [
+        {
+          "id": 36,
+          "imageUrl": "https://cdn.jonty.top/LZ0f8e5717-e1bb-4968-9fbb-654db14caa23.jpg"
+        },
+        {
+          "id": 37,
+          "imageUrl": "https://cdn.jonty.top/LZ71effe4d-02ed-4661-b6ee-3782e7008fe4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "cname": "wjkwk",
+      "uname": "enneneneme",
+      "property": "msmdmmd",
+      "weight": 18,
+      "length": 18,
+      "width": 1881,
+      "height": 18,
+      "quote": 188.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "snnsnsnsns",
+      "cdescribe": "nsnsnnsns",
+      "udescribe": "",
+      "state": 1,
+      "createTime": "2021-01-21T15:25:34.86",
+      "updateTime": "2021-01-21T15:25:34.86",
+      "images": [
+        {
+          "id": 38,
+          "imageUrl": "https://cdn.jonty.top/LZ99b16847-ddb6-4b4a-b4ab-95dc837956bd.jpg"
+        },
+        {
+          "id": 39,
+          "imageUrl": "https://cdn.jonty.top/LZ2955e424-749b-4283-9df1-4f6cbe297e54.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "cname": "11111",
+      "uname": "qqwsddf",
+      "property": "vbwbqnq",
+      "weight": 15181,
+      "length": 151,
+      "width": 1515,
+      "height": 1551,
+      "quote": 1818818.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "nwnnwnw",
+      "cdescribe": "nwnwnmw",
+      "udescribe": "bnwnwnwm",
+      "state": 1,
+      "createTime": "2021-01-26T16:36:08.737",
+      "updateTime": "2021-01-26T16:36:08.737",
+      "images": [
+        {
+          "id": 40,
+          "imageUrl": "https://cdn.jonty.top/LZ4d80c86d-e212-4437-9032-61419a10356e.jpg"
+        },
+        {
+          "id": 41,
+          "imageUrl": "https://cdn.jonty.top/LZd3ab480f-cd60-4899-aab9-2a706ca096af.jpg"
+        },
+        {
+          "id": 42,
+          "imageUrl": "https://cdn.jonty.top/LZ983f1bea-f254-4afb-ac77-e4f16e0b42f7.jpg"
+        },
+        {
+          "id": 43,
+          "imageUrl": "https://cdn.jonty.top/LZ0d6869a4-921b-42f2-bc77-d251fd8c9bf0.jpg"
+        },
+        {
+          "id": 44,
+          "imageUrl": "https://cdn.jonty.top/LZd9d0ac06-3f42-4051-acab-7f72ebd379c2.jpg"
+        },
+        {
+          "id": 45,
+          "imageUrl": "https://cdn.jonty.top/LZfec5aafe-0a6b-4dc1-b6ab-de75f7152d5b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "cname": "123",
+      "uname": "1231341",
+      "property": "12342131",
+      "weight": 123,
+      "length": 1,
+      "width": 1,
+      "height": 1,
+      "quote": 1.0000,
+      "productLink": "2131",
+      "shopLink": "1231",
+      "cdescribe": "1233",
+      "udescribe": "1321",
+      "state": 2,
+      "createTime": "2021-01-27T09:23:19.863",
+      "updateTime": "2021-01-27T09:23:19.863",
+      "images": [
+        {
+          "id": 48,
+          "imageUrl": "https://cdn.jonty.top/LZ3030a982-1ec2-4b10-b658-75aa68ccf6db.png"
+        }
+      ]
+    }
+  ]
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-01-29 13:03:46,331                                   
+【执行时间】[1439]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-01-29 13:03:46,362                                   
+【执行时间】[1470]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存

@@ -1,0 +1,71 @@
+{
+  "button": [
+    {
+      "name": "联洲简介",
+      "sub_button": [
+        {
+          "type": "click",
+          "name": "企业文化",
+          "key": "lzcompanyculture",
+          "url": ""
+        },
+        {
+          "type": "click",
+          "name": "校园招聘",
+          "key": "lzrecruitment",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "动态资讯",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "订单动态",
+          "key": "lzordernews",
+          "url": "https://wx.lianzhoukuajing.com/#/orderdynamics"
+        },
+        {
+          "type": "view",
+          "name": "销售动态",
+          "key": "salesnews",
+          "url": "https://wx.lianzhoukuajing.com/#/salesdynamics"
+        },
+        {
+          "type": "click",
+          "name": "销售喜报",
+          "key": "goodsalesnews",
+          "url": ""
+        }
+
+      ]
+    },
+    {
+      "name": "供应招商",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "供应招商",
+          "key": "supplymerchants",
+          "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=2#wechat_redirect"
+        },
+        {
+          "type": "view",
+          "name": "用户中心",
+          "key": "usercenter",
+          "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+        }
+      ]
+    }
+  ],
+  "matchrule": {
+    "tag_id": "2",
+    "sex": "",
+    "country": "",
+    "province": "",
+    "city": "",
+    "client_platform_type": "",
+    "language": ""
+  }
+}

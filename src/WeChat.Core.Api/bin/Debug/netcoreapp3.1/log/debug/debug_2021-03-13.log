@@ -1,0 +1,85 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-13 10:25:16,224                                   
+【执行时间】[4522]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-13 10:25:16,285                                   
+【执行时间】[4584]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-13 10:25:20,758                                   
+【执行时间】[9056]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/13 10:25:20
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-13 10:25:28,502                                   
+【执行时间】[16801]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/13 10:25:28
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-13 10:25:32,938                                   
+【执行时间】[21236]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Product/GetCategoryTree GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-13 10:25:33,637                                   
+【执行时间】[21935]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-13 11:04:20,156                                   
+【执行时间】[5162]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-13 11:04:20,193                                   
+【执行时间】[5199]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-13 11:04:20,195                                   
+【执行时间】[5202]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/13 11:04:20
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-13 11:04:28,375                                   
+【执行时间】[13381]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/13 11:04:28
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-13 11:04:40,884                                   
+【执行时间】[25890]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/ErpToken POST  {"userName":"Wangjintao","passWord":"321517"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-13 11:04:41,414                                   
+【执行时间】[26420]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-13 11:05:01,661                                   
+【执行时间】[46667]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Product/GetCategoryTree GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-13 11:05:02,933                                   
+【执行时间】[47939]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: 

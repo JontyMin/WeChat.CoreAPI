@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Repository\\WeChat.Core.Repository.csproj": {}
+  },
+  "projects": {
+    "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Common\\WeChat.Core.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Common\\WeChat.Core.Common.csproj",
+        "projectName": "WeChat.Core.Common",
+        "projectPath": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Common\\WeChat.Core.Common.csproj",
+        "packagesPath": "C:\\Users\\jonty\\.nuget\\packages\\",
+        "outputPath": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jonty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Qiniu.SDK": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "TencentCloudSDK": {
+              "target": "Package",
+              "version": "[3.0.222, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.IRepository\\WeChat.Core.IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.IRepository\\WeChat.Core.IRepository.csproj",
+        "projectName": "WeChat.Core.IRepository",
+        "projectPath": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.IRepository\\WeChat.Core.IRepository.csproj",
+        "packagesPath": "C:\\Users\\jonty\\.nuget\\packages\\",
+        "outputPath": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jonty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Model\\WeChat.Core.Model.csproj": {
+                "projectPath": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Model\\WeChat.Core.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Model\\WeChat.Core.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Model\\WeChat.Core.Model.csproj",
+        "projectName": "WeChat.Core.Model",
+        "projectPath": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Model\\WeChat.Core.Model.csproj",
+        "packagesPath": "C:\\Users\\jonty\\.nuget\\packages\\",
+        "outputPath": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jonty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.4.0, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Repository\\WeChat.Core.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Repository\\WeChat.Core.Repository.csproj",
+        "projectName": "WeChat.Core.Repository",
+        "projectPath": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Repository\\WeChat.Core.Repository.csproj",
+        "packagesPath": "C:\\Users\\jonty\\.nuget\\packages\\",
+        "outputPath": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jonty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Common\\WeChat.Core.Common.csproj": {
+                "projectPath": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Common\\WeChat.Core.Common.csproj"
+              },
+              "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.IRepository\\WeChat.Core.IRepository.csproj": {
+                "projectPath": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.IRepository\\WeChat.Core.IRepository.csproj"
+              },
+              "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Model\\WeChat.Core.Model.csproj": {
+                "projectPath": "F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Model\\WeChat.Core.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,866 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 09:18:17,729                                   
+【执行时间】[1378]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 09:18:17,755                                   
+【执行时间】[1404]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 09:18:37,930                                   
+【执行时间】[21579]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/ErpToken POST  {"userName":"Wangjintao","passWord":"321517"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 09:18:39,019                                   
+【执行时间】[22668]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMTAyIiwianRpIjoiMTAyIiwiaWF0IjoiMTYxNDkwNzExOCIsIm5iZiI6IjE2MTQ5MDcxMTgiLCJleHAiOiIxNjE0OTE0MzE4IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDMvMDUvMjAyMSAxMToxODozOCIsImlzcyI6IkpvbnR5V2FuZyIsImF1ZCI6IlN1cHBsaWVyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3VwcGxpZXIifQ.BzWm1qMmWsBxi18X3exZypD_bOp_cg9MHbiC0dCHIN0",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 09:19:15,520                                   
+【执行时间】[59168]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/LXBVN000007558182 GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 09:19:15,806                                   
+【执行时间】[59454]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:500: {
+  "message": "Error mapping types.\r\n\r\nMapping types:\r\nPurchaseOrders -> PurchaseOrderViewModel\r\nWeChat.Core.Model.EntityModel.ERP.PurchaseOrders -> WeChat.Core.Model.ViewModel.ERP.PurchaseOrderViewModel\r\n\r\nType Map configuration:\r\nPurchaseOrders -> PurchaseOrderViewModel\r\nWeChat.Core.Model.EntityModel.ERP.PurchaseOrders -> WeChat.Core.Model.ViewModel.ERP.PurchaseOrderViewModel\r\n\r\nDestination Member:\r\nOrderId\r\n",
+  "developmentMessage": "   at lambda_method(Closure , PurchaseOrders , PurchaseOrderViewModel , ResolutionContext )\r\n   at WeChat.Core.Api.Controllers.DepotController.Get(String trackNo) in F:\\ERP_Code\\WeChat.Core.Api\\src\\WeChat.Core.Api\\Controllers\\DepotController.cs:line 51\r\n   at lambda_method(Closure , Object )\r\n   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 09:20:32,332                                   
+【执行时间】[2576]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 09:20:32,360                                   
+【执行时间】[2605]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 09:20:51,639                                   
+【执行时间】[21884]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"Wangjintao","passWord":"321517"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 09:20:52,726                                   
+【执行时间】[22971]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": false,
+  "message": "\u8D26\u53F7\u6216\u5BC6\u7801\u9519\u8BEF"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 09:21:22,682                                   
+【执行时间】[52927]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"Wangjintao","passWord":"321517"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 09:21:22,744                                   
+【执行时间】[52989]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": false,
+  "message": "\u8D26\u53F7\u6216\u5BC6\u7801\u9519\u8BEF"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 09:22:46,053                                   
+【执行时间】[1400]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 09:22:46,082                                   
+【执行时间】[1429]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 09:22:58,989                                   
+【执行时间】[14336]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/ErpToken POST  {"userName":"Wangjintao","passWord":"321517"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 09:22:59,894                                   
+【执行时间】[15241]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMTAyIiwianRpIjoiMTAyIiwiaWF0IjoiMTYxNDkwNzM3OSIsIm5iZiI6IjE2MTQ5MDczNzkiLCJleHAiOiIxNjE0OTE0NTc5IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDMvMDUvMjAyMSAxMToyMjo1OSIsImlzcyI6IkpvbnR5V2FuZyIsImF1ZCI6IlN1cHBsaWVyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3VwcGxpZXIifQ.u0KjW7lB35NjEZgp2NDJ-RgQUAFITEOnzD6VHoUE-Uw",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 09:23:22,929                                   
+【执行时间】[38276]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/LXBVN000007558182 GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 09:23:23,165                                   
+【执行时间】[38512]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "查询成功",
+  "response": {
+    "id": 356071,
+    "platformNo": 66,
+    "orderId": "275690010085147",
+    "itemImage": "https://my-live-02.slatic.net/p/c4d15bab0bcfff5a0e03940b1ba30e6c.jpg",
+    "trackingNo": "LXBVN000007558182",
+    "isDeliveryScan": false,
+    "deliveryScanName": null,
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 12:02:08,181                                   
+【执行时间】[2525]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 12:02:08,220                                   
+【执行时间】[2563]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:02:29,233                                   
+【执行时间】[23577]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/ErpToken POST  {"userName":"Wangjintao","passWord":"321517"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:02:33,794                                   
+【执行时间】[28138]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMTAyIiwianRpIjoiMTAyIiwiaWF0IjoiMTYxNDkxNjk1MyIsIm5iZiI6IjE2MTQ5MTY5NTMiLCJleHAiOiIxNjE0OTI0MTUzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDMvMDUvMjAyMSAxNDowMjozMyIsImlzcyI6IkpvbnR5V2FuZyIsImF1ZCI6IlN1cHBsaWVyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3VwcGxpZXIifQ.7dXv_U4t0g998vhhOONRhpRxy6B_E8If-uUejM5Nfqg",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:02:57,675                                   
+【执行时间】[52018]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 12:09:12,128                                   
+【执行时间】[1347]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 12:09:12,163                                   
+【执行时间】[1382]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:09:22,521                                   
+【执行时间】[11740]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:09:23,332                                   
+【执行时间】[12551]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 0,
+  "success": false,
+  "msg": "服务器异常",
+  "response": {
+    "platformName": "Daraz",
+    "num": 1,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": null,
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 12:17:04,966                                   
+【执行时间】[1402]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 12:17:04,999                                   
+【执行时间】[1434]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:17:24,843                                   
+【执行时间】[21279]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:17:25,904                                   
+【执行时间】[22339]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 0,
+  "success": false,
+  "msg": "服务器异常",
+  "response": {
+    "platformName": "Daraz",
+    "num": 1,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": null,
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 12:25:21,151                                   
+【执行时间】[1538]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 12:25:21,214                                   
+【执行时间】[1601]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:25:33,761                                   
+【执行时间】[14148]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/LXBVN000007557656 GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:25:34,800                                   
+【执行时间】[15187]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 0,
+  "success": false,
+  "msg": "服务器异常",
+  "response": {
+    "platformName": null,
+    "num": 3,
+    "trackingNo": "LXBVN000007557656",
+    "isDeliveryScan": false,
+    "deliveryScanName": null,
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 12:46:40,283                                   
+【执行时间】[1387]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 12:46:40,318                                   
+【执行时间】[1421]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:46:53,976                                   
+【执行时间】[15080]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/LXBPH000030360342 GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:46:55,050                                   
+【执行时间】[16153]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Lazada",
+    "num": 2,
+    "trackingNo": "LXBPH000030360342",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:47:29,677                                   
+【执行时间】[50781]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/LXBVN000007557656 GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:47:29,817                                   
+【执行时间】[50920]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Lazada",
+    "num": 3,
+    "trackingNo": "LXBVN000007557656",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:47:43,707                                   
+【执行时间】[64810]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:47:43,821                                   
+【执行时间】[64925]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 12:50:15,193                                   
+【执行时间】[1388]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 12:50:15,239                                   
+【执行时间】[1434]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:50:26,473                                   
+【执行时间】[12668]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/ErpToken POST  {"userName":"Wangjintao","passWord":"321517"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:50:27,493                                   
+【执行时间】[13688]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMTAyIiwianRpIjoiMTAyIiwiaWF0IjoiMTYxNDkxOTgyNyIsIm5iZiI6IjE2MTQ5MTk4MjciLCJleHAiOiIxNjE0OTE5ODQ3IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDMvMDUvMjAyMSAxMjo1MDo0NyIsImlzcyI6IkpvbnR5V2FuZyIsImF1ZCI6IlN1cHBsaWVyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3VwcGxpZXIifQ.UK9zog8DKfZ6iSB6LDmvoObVUCCvYq2dCcpufgM2Itg",
+  "expires_in": 20,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:50:46,022                                   
+【执行时间】[32217]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:50:46,223                                   
+【执行时间】[32418]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:50:49,016                                   
+【执行时间】[35211]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:50:49,138                                   
+【执行时间】[35333]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:50:51,021                                   
+【执行时间】[37216]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:50:51,157                                   
+【执行时间】[37352]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:50:52,603                                   
+【执行时间】[38798]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:50:52,736                                   
+【执行时间】[38931]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:50:56,224                                   
+【执行时间】[42419]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:50:56,349                                   
+【执行时间】[42544]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:00,449                                   
+【执行时间】[46644]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:00,574                                   
+【执行时间】[46769]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:01,895                                   
+【执行时间】[48090]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:02,017                                   
+【执行时间】[48212]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:02,667                                   
+【执行时间】[48862]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:02,786                                   
+【执行时间】[48981]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:03,376                                   
+【执行时间】[49571]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:03,503                                   
+【执行时间】[49698]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:04,111                                   
+【执行时间】[50306]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:04,231                                   
+【执行时间】[50426]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:04,871                                   
+【执行时间】[51066]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:04,980                                   
+【执行时间】[51175]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:08,666                                   
+【执行时间】[54861]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTBD1424306536YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 12:51:08,787                                   
+【执行时间】[54982]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 2,
+    "trackingNo": "ANTBD1424306536YQ",
+    "isDeliveryScan": false,
+    "deliveryScanName": "无",
+    "scanWeight": null,
+    "deliveryScanTime": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 17:15:09,415                                   
+【执行时间】[1467]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 17:15:09,504                                   
+【执行时间】[1556]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 17:45:16,269                                   
+【执行时间】[2224]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 17:45:16,300                                   
+【执行时间】[2256]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 17:45:29,519                                   
+【执行时间】[15474]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/ErpToken POST  {"userName":"Wangjintao","passWord":"321517"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 17:45:35,630                                   
+【执行时间】[21586]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMTAyIiwianRpIjoiMTAyIiwiaWF0IjoiMTYxNDkzNzUzNSIsIm5iZiI6IjE2MTQ5Mzc1MzUiLCJleHAiOiIxNjE0OTQ0NzM1IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDMvMDUvMjAyMSAxOTo0NTozNSIsImlzcyI6IkpvbnR5V2FuZyIsImF1ZCI6IlN1cHBsaWVyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3VwcGxpZXIifQ.s4Yr25CzTkBiFkCL0wPaum0ZMvVnD_IlovfgmbSIZp8",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 17:46:14,366                                   
+【执行时间】[60322]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTLK1424182721YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 17:51:51,110                                   
+【执行时间】[2304]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 17:51:51,139                                   
+【执行时间】[2333]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 17:52:10,327                                   
+【执行时间】[21520]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/ErpToken POST  {"userName":"Wangjintao","passWord":"321517"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 17:52:15,465                                   
+【执行时间】[26659]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMTAyIiwianRpIjoiMTAyIiwiaWF0IjoiMTYxNDkzNzkzNSIsIm5iZiI6IjE2MTQ5Mzc5MzUiLCJleHAiOiIxNjE0OTQ1MTM1IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDMvMDUvMjAyMSAxOTo1MjoxNSIsImlzcyI6IkpvbnR5V2FuZyIsImF1ZCI6IlN1cHBsaWVyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3VwcGxpZXIifQ.KhIOjMFHmK_uWFVwYyG9Ra4qtgAHtA_DgMUWpEaVhGw",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 17:52:34,504                                   
+【执行时间】[45698]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTLK1424182721YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 17:52:49,408                                   
+【执行时间】[60602]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 1,
+    "trackingNo": "ANTLK1424182721YQ",
+    "isDeliveryScan": "未扫描",
+    "deliveryScanName": "-",
+    "scanWeight": null,
+    "deliveryScanTime": ""
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 17:59:44,844                                   
+【执行时间】[2053]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-05 17:59:44,879                                   
+【执行时间】[2088]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 18:00:00,692                                   
+【执行时间】[17901]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/ErpToken POST  {"userName":"Wangjintao","passWord":"321517"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 18:00:05,826                                   
+【执行时间】[23035]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMTAyIiwianRpIjoiMTAyIiwiaWF0IjoiMTYxNDkzODQwNSIsIm5iZiI6IjE2MTQ5Mzg0MDUiLCJleHAiOiIxNjE0OTQ1NjA1IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDMvMDUvMjAyMSAyMDowMDowNSIsImlzcyI6IkpvbnR5V2FuZyIsImF1ZCI6IlN1cHBsaWVyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3VwcGxpZXIifQ.RhqBF_im1cw0okOdhRkOzH9m033Wa99laUk3KZOSEAI",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 18:00:29,742                                   
+【执行时间】[46951]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTLK1424182721YQ GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 18:00:54,202                                   
+【执行时间】[71411]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "platformName": "Daraz",
+    "num": 1,
+    "trackingNo": "ANTLK1424182721YQ",
+    "isDeliveryScan": "未扫描",
+    "deliveryScanName": "-",
+    "scanWeight": "0",
+    "deliveryScanTime": ""
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-05 18:01:25,698                                   
+【执行时间】[102907]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot POST  {"trackNo":"ANTLK1424182721YQ","weight":"0.24kg"}

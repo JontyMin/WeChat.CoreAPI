@@ -1,0 +1,1180 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 10:46:54,802                                   
+【执行时间】[10206]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000/api/Account/JwtToken  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 10:46:55,840                                   
+【执行时间】[11243]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExNjI5MjE1IiwibmJmIjoiMTYxMTYyOTIxNSIsImV4cCI6IjE2MTE2MzY0MTUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yNi8yMDIxIDEyOjQ2OjU1IiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.jwlqSjgL3kT4ucGkNhAcnwRQfPTTbBdmMT946Tm3-F0",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 10:47:15,443                                   
+【执行时间】[30847]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000/api/Product/2  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 10:47:15,594                                   
+【执行时间】[30997]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:500: {
+  "message": "Object reference not set to an instance of an object.",
+  "developmentMessage": "   at WeChat.Core.Api.Controllers.ProductController.Delete(Int32 id) in F:\\ERP_Code\\WeChat.Core.Api\\src\\WeChat.Core.Api\\Controllers\\ProductController.cs:line 225\r\n   at lambda_method(Closure , Object )\r\n   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 10:47:47,207                                   
+【执行时间】[62611]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000/api/Product/13  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 10:47:47,305                                   
+【执行时间】[62709]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "删除成功",
+  "response": "13"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 10:47:54,475                                   
+【执行时间】[69878]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000/api/Product/2  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 10:47:54,491                                   
+【执行时间】[69894]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:500: {
+  "message": "Object reference not set to an instance of an object.",
+  "developmentMessage": "   at WeChat.Core.Api.Controllers.ProductController.Delete(Int32 id) in F:\\ERP_Code\\WeChat.Core.Api\\src\\WeChat.Core.Api\\Controllers\\ProductController.cs:line 225\r\n   at lambda_method(Closure , Object )\r\n   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 11:07:24,889                                   
+【执行时间】[36939]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000/api/Account/JwtToken  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 11:07:25,875                                   
+【执行时间】[37926]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExNjMwNDQ1IiwibmJmIjoiMTYxMTYzMDQ0NSIsImV4cCI6IjE2MTE2Mzc2NDUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yNi8yMDIxIDEzOjA3OjI1IiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.P6CMOFIA3ubOoX1TTNGGwl3Tj1JtFMf0ErVKSWxm0Us","expires_in":7200,"token_type":"Bearer"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 11:07:27,695                                   
+【执行时间】[39745]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000/api/Account/JwtToken  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 11:07:27,715                                   
+【执行时间】[39766]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExNjMwNDQ3IiwibmJmIjoiMTYxMTYzMDQ0NyIsImV4cCI6IjE2MTE2Mzc2NDciLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yNi8yMDIxIDEzOjA3OjI3IiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.yZfW3fB07rVMu2c2nhLylsyVesV4PTRemOiacnN01N8","expires_in":7200,"token_type":"Bearer"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 11:07:31,169                                   
+【执行时间】[43220]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000/api/Account/JwtToken  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 11:07:31,186                                   
+【执行时间】[43236]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExNjMwNDUxIiwibmJmIjoiMTYxMTYzMDQ1MSIsImV4cCI6IjE2MTE2Mzc2NTEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yNi8yMDIxIDEzOjA3OjMxIiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.dK-lX8iV0QiBVWU64C6xrBHY-Ea8MISEcS4D1EySZr4","expires_in":7200,"token_type":"Bearer"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 11:19:14,834                                   
+【执行时间】[20558]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000/api/Account/JwtToken  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 11:19:15,842                                   
+【执行时间】[21566]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExNjMxMTU1IiwibmJmIjoiMTYxMTYzMTE1NSIsImV4cCI6IjE2MTE2MzgzNTUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yNi8yMDIxIDEzOjE5OjE1IiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.Dxk2szhKvp5UB2qrHp3IqBQ3Bb-sIy0DOt00Wf9BVjc",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 11:19:17,777                                   
+【执行时间】[23501]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000/api/Account/JwtToken  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 11:19:17,793                                   
+【执行时间】[23517]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExNjMxMTU3IiwibmJmIjoiMTYxMTYzMTE1NyIsImV4cCI6IjE2MTE2MzgzNTciLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yNi8yMDIxIDEzOjE5OjE3IiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.GLDcGUT6eKQ9k74YN-swgbvMmG8cbItDpbQqlLewdr4",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 15:35:30,349                                   
+【执行时间】[17617]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/GetAccessToken GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 15:35:30,986                                   
+【执行时间】[18253]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "accessToken": null,
+    "expiresIn": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 15:37:10,336                                   
+【执行时间】[117604]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/GetAccessToken GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 15:37:10,579                                   
+【执行时间】[117847]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "accessToken": "41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX",
+    "expiresIn": "7200"
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 15:43:37,853                                   
+【执行时间】[26103]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/GetTagInfo GET ?token=41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 15:43:39,346                                   
+【执行时间】[27596]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "tags": [
+      {
+        "id": 2,
+        "name": "星标组",
+        "count": 0
+      },
+      {
+        "id": 100,
+        "name": "private",
+        "count": 12
+      },
+      {
+        "id": 101,
+        "name": "public",
+        "count": 0
+      }
+    ]
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:02:52,745                                   
+【执行时间】[748643]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAuth/AuthorizeUrl GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:02:52,829                                   
+【执行时间】[748727]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "请求成功",
+  "response": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:03:44,023                                   
+【执行时间】[799921]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/CreateMenu POST ?token=41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX {"button":[{"name":"联洲简介","sub_button":[{"type":"click","name":"企业文化","key":"14L6Mp1Q9967621","url":""},{"type":"click","name":"企业文化","key":"K1FGAx9VvebjFep","url":""}]},{"name":"动态资讯","sub_button":[{"type":"click","name":"订单动态","key":"jr0hfY4xrMe36up","url":""},{"type":"click","name":"销售动态","key":"H47Rs5726Q66e6m","url":""}]},{"name":"供应招商","sub_button":[{"type":"view","name":"供应招商","key":"55Am39f5Ds3532u","url":"https://wx.lianzhoukuajing.com/apply"},{"type":"view","name":"用户中心","key":"pcF73zx11Ls4dQA","url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"}]}],"matchrule":{"tag_id":"100","sex":"","country":"","province":"","city":"","client_platform_type":"","language":""}}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:03:44,669                                   
+【执行时间】[800568]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "创建成功",
+  "response": {
+    "menuId": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:06:27,383                                   
+【执行时间】[27415]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/CreateMenu POST ?token=41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX {"button":[{"name":"联洲简介","sub_button":[{"type":"click","name":"企业文化","key":"14L6Mp1Q9967621","url":""},{"type":"click","name":"企业文化","key":"K1FGAx9VvebjFep","url":""}]},{"name":"动态资讯","sub_button":[{"type":"click","name":"订单动态","key":"jr0hfY4xrMe36up","url":""},{"type":"click","name":"销售动态","key":"H47Rs5726Q66e6m","url":""}]},{"name":"供应招商","sub_button":[{"type":"view","name":"供应招商","key":"55Am39f5Ds3532u","url":"https://wx.lianzhoukuajing.com/apply"},{"type":"view","name":"用户中心","key":"pcF73zx11Ls4dQA","url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"}]}],"matchrule":{"tag_id":"100","sex":"","country":"","province":"","city":"","client_platform_type":"","language":""}}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:06:28,132                                   
+【执行时间】[28164]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "创建成功",
+  "response": {
+    "menuId": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:08:51,426                                   
+【执行时间】[39957]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/CreateMenu POST ?token=41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX {"button":[{"name":"联洲简介","sub_button":[{"type":"click","name":"企业文化","key":"14L6Mp1Q9967621","url":""},{"type":"click","name":"企业文化","key":"K1FGAx9VvebjFep","url":""}]},{"name":"动态资讯","sub_button":[{"type":"click","name":"订单动态","key":"jr0hfY4xrMe36up","url":""},{"type":"click","name":"销售动态","key":"H47Rs5726Q66e6m","url":""}]},{"name":"供应招商","sub_button":[{"type":"view","name":"供应招商","key":"55Am39f5Ds3532u","url":"https://wx.lianzhoukuajing.com/apply"},{"type":"view","name":"用户中心","key":"pcF73zx11Ls4dQA","url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"}]}],"matchrule":{"tag_id":"100","sex":"","country":"","province":"","city":"","client_platform_type":"","language":""}}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:08:52,097                                   
+【执行时间】[40628]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "创建成功",
+  "response": {
+    "menuId": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:13:04,853                                   
+【执行时间】[161620]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/CreateMenu POST ?token=41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX {"button":[{"name":"联洲简介","sub_button":[{"type":"click","name":"企业文化","key":"14L6Mp1Q9967621","url":""},{"type":"click","name":"企业文化","key":"K1FGAx9VvebjFep","url":""}]},{"name":"动态资讯","sub_button":[{"type":"view","name":"订单动态","url":""},{"type":"view","name":"销售动态","url":""}]},{"name":"供应招商","sub_button":[{"type":"view","name":"供应招商","key":"55Am39f5Ds3532u","url":"https://wx.lianzhoukuajing.com/apply"},{"type":"view","name":"用户中心","key":"pcF73zx11Ls4dQA","url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"}]}],"matchrule":{"tag_id":"100","sex":"","country":"","province":"","city":"","client_platform_type":"","language":""}}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:24:22,481                                   
+【执行时间】[16441]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/CreateMenu POST ?token=41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX {"button":[{"name":"联洲简介","sub_button":[{"type":"click","name":"企业文化","key":"14L6Mp1Q9967621","url":""},{"type":"click","name":"企业文化","key":"K1FGAx9VvebjFep","url":""}]},{"name":"动态资讯","sub_button":[{"type":"click","name":"订单动态","key":"jr0hfY4xrMe36up","url":""},{"type":"click","name":"销售动态","key":"H47Rs5726Q66e6m","url":""}]},{"name":"供应招商","sub_button":[{"type":"view","name":"供应招商","key":"55Am39f5Ds3532u","url":"https://wx.lianzhoukuajing.com/apply"},{"type":"view","name":"用户中心","key":"pcF73zx11Ls4dQA","url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"}]}],"matchrule":{"tag_id":"100","sex":"","country":"","province":"","city":"","client_platform_type":"","language":""}}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:24:23,280                                   
+【执行时间】[17240]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 400,
+  "success": false,
+  "msg": "创建失败,请重试",
+  "response": null
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:30:28,202                                   
+【执行时间】[63822]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/CreateMenu POST ?token=41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX {"button":[{"name":"联洲简介","sub_button":[{"type":"click","name":"企业文化","key":"14L6Mp1Q9967621","url":""},{"type":"click","name":"企业文化","key":"K1FGAx9VvebjFep","url":""}]},{"name":"动态资讯","sub_button":[{"type":"click","name":"订单动态","key":"jr0hfY4xrMe36up","url":""},{"type":"click","name":"销售动态","key":"H47Rs5726Q66e6m","url":""}]},{"name":"供应招商","sub_button":[{"type":"view","name":"供应招商","key":"55Am39f5Ds3532u","url":"https://wx.lianzhoukuajing.com/apply"},{"type":"view","name":"用户中心","key":"pcF73zx11Ls4dQA","url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"}]}]}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:30:29,494                                   
+【执行时间】[65114]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "创建成功",
+  "response": {
+    "errorCode": 0,
+    "errorMessage": "ok"
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:33:36,820                                   
+【执行时间】[252440]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/CreatePersonalizedMenu POST ?token=41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX {"button":[{"name":"联洲简介","sub_button":[{"type":"click","name":"企业文化","key":"14L6Mp1Q9967621","url":""},{"type":"click","name":"企业文化","key":"K1FGAx9VvebjFep","url":""}]},{"name":"动态资讯","sub_button":[{"type":"click","name":"订单动态","key":"jr0hfY4xrMe36up","url":""},{"type":"click","name":"销售动态","key":"H47Rs5726Q66e6m","url":""}]},{"name":"供应招商","sub_button":[{"type":"view","name":"供应招商","key":"55Am39f5Ds3532u","url":"https://wx.lianzhoukuajing.com/#/apply"},{"type":"view","name":"用户中心","key":"pcF73zx11Ls4dQA","url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"}]}],"matchrule":{"tag_id":"100","sex":"","country":"","province":"","city":"","client_platform_type":"","language":""}}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:33:37,442                                   
+【执行时间】[253063]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "创建成功",
+  "response": {
+    "menuId": "435943503"
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:44:09,164                                   
+【执行时间】[33970]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/DeleteMenu DELETE ?token=41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:44:10,160                                   
+【执行时间】[34966]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "删除完成",
+  "response": {
+    "errorCode": 0,
+    "errorMessage": "ok"
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:45:27,040                                   
+【执行时间】[111846]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/CreateMenu POST ?token=41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX {"button":[{"name":"联洲简介","sub_button":[{"type":"click","name":"企业文化","key":"14L6Mp1Q9967621","url":""},{"type":"click","name":"企业文化","key":"K1FGAx9VvebjFep","url":""}]},{"name":"动态资讯","sub_button":[{"type":"click","name":"销售动态","key":"H47Rs5726Q66e6m","url":""}]},{"name":"供应招商","sub_button":[{"type":"view","name":"供应招商","key":"55Am39f5Ds3532u","url":"https://wx.lianzhoukuajing.com/apply"},{"type":"view","name":"用户中心","key":"pcF73zx11Ls4dQA","url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"}]}]}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:45:27,897                                   
+【执行时间】[112703]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "创建成功",
+  "response": {
+    "errorCode": 0,
+    "errorMessage": "ok"
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:45:37,789                                   
+【执行时间】[122595]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/CreatePersonalizedMenu POST ?token=41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX {"button":[{"name":"联洲简介","sub_button":[{"type":"click","name":"企业文化","key":"14L6Mp1Q9967621","url":""},{"type":"click","name":"企业文化","key":"K1FGAx9VvebjFep","url":""}]},{"name":"动态资讯","sub_button":[{"type":"click","name":"订单动态","key":"jr0hfY4xrMe36up","url":""},{"type":"click","name":"销售动态","key":"H47Rs5726Q66e6m","url":""}]},{"name":"供应招商","sub_button":[{"type":"view","name":"供应招商","key":"55Am39f5Ds3532u","url":"https://wx.lianzhoukuajing.com/#/apply"},{"type":"view","name":"用户中心","key":"pcF73zx11Ls4dQA","url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"}]}],"matchrule":{"tag_id":"100","sex":"","country":"","province":"","city":"","client_platform_type":"","language":""}}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 16:45:38,416                                   
+【执行时间】[123222]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "创建成功",
+  "response": {
+    "menuId": "435943513"
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:46:18,597                                   
+【执行时间】[19672]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAuth/AuthorizeUrl GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:46:18,683                                   
+【执行时间】[19758]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "请求成功",
+  "response": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaf10e7d3932490b3&redirect_uri=%68%74%74%70%73%3a%2f%2f%77%78%2e%6c%69%61%6e%7a%68%6f%75%6b%75%61%6a%69%6e%67%2e%63%6f%6d%2f&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:46:46,345                                   
+【执行时间】[47420]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAuth/AccessToken/031Rcg100D773L1a3I000ZbCTd3Rcg1A GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:46:46,894                                   
+【执行时间】[47969]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "access_token": "41_mrUZu2KsYpM1IDXV43u4cX0PUMSAnlK-zWKcVeQgeR2EqKY9i_c6hUqTOtP0uI35yU8Dv0cIwEcbxBGk_VvJmA",
+    "expires_in": 7200,
+    "refresh_token": "41_dD_wRJzuy73mvXKIe7noaEl8Wv65fJmfQg3S1nG5RI_jAeXJ3ukvrtiAgK_88hOp7k0TB4R67T53y1SHZQ8F3A",
+    "openid": "oNkkP57_K0gtMBY0H6WFopiGXBjI",
+    "scope": "snsapi_userinfo",
+    "unionid": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:47:17,857                                   
+【执行时间】[78932]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:47:18,818                                   
+【执行时间】[79893]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExNjU0NDM4IiwibmJmIjoiMTYxMTY1NDQzOCIsImV4cCI6IjE2MTE2NjE2MzgiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yNi8yMDIxIDE5OjQ3OjE4IiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9._0zmpfjQuIxJSYru9cWh6aCzW2m8noa9qL6st9frHtE",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:47:34,141                                   
+【执行时间】[95216]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/GetAccessToken GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:47:35,515                                   
+【执行时间】[96590]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 400,
+  "success": false,
+  "msg": "获取失败,请重试",
+  "response": null
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:47:58,695                                   
+【执行时间】[119770]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/SendMessage POST ?type=1&openId=oNkkP57_K0gtMBY0H6WFopiGXBjI&code=asdfadf&token=41_j5UXV-zrXo9hMa0hdaRD_-iMNWhE2gEkYhFyhsgYSk3ZHCjs-nDElZpg0Tvox-e6yKCYH8Kqngrs2W4kGAEjpbCFF-FXZM-gx9Z8kOAj4tu5gDjdBlqmtOJbdOn5JD6QQ3-VTyrJJrKGcqtWPINcACAZSX 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:47:58,759                                   
+【执行时间】[119834]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:500: {
+  "message": "Object reference not set to an instance of an object.",
+  "developmentMessage": "   at WeChat.Core.Api.Controllers.WeChatAPIController.SendMessage(Int32 type, String openId, String code, String token) in F:\\ERP_Code\\WeChat.Core.Api\\src\\WeChat.Core.Api\\Controllers\\WeChatAPIController.cs:line 231\r\n   at lambda_method(Closure , Object )\r\n   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:48:40,221                                   
+【执行时间】[161296]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/SendMessage POST ?type=1&openId=oNkkP57_K0gtMBY0H6WFopiGXBjI&code=asdfadf&token=41_Cwuu505WDwLP-M8fwHwjscl0C8MacxmS2ZUFXCw9vP645cRhT1VY7uzjqumW4GZ7WtHyriRnQRXkPaAZZGJ_f0-E6AkLnlzFuTZfMF-5aQxKvTJphQz2gzc3sRqEns6CYW4kWZhgeqwpkVqDKXYgAGABOP 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:48:40,226                                   
+【执行时间】[161301]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:500: {
+  "message": "Object reference not set to an instance of an object.",
+  "developmentMessage": "   at WeChat.Core.Api.Controllers.WeChatAPIController.SendMessage(Int32 type, String openId, String code, String token) in F:\\ERP_Code\\WeChat.Core.Api\\src\\WeChat.Core.Api\\Controllers\\WeChatAPIController.cs:line 231\r\n   at lambda_method(Closure , Object )\r\n   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:49:40,286                                   
+【执行时间】[38185]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/SendMessage POST ?type=1&openId=oNkkP57_K0gtMBY0H6WFopiGXBjI&code=JONTY1&token=41_Cwuu505WDwLP-M8fwHwjscl0C8MacxmS2ZUFXCw9vP645cRhT1VY7uzjqumW4GZ7WtHyriRnQRXkPaAZZGJ_f0-E6AkLnlzFuTZfMF-5aQxKvTJphQz2gzc3sRqEns6CYW4kWZhgeqwpkVqDKXYgAGABOP 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:54:50,046                                   
+【执行时间】[30350]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/SendMessage POST ?type=1&openId=oNkkP57_K0gtMBY0H6WFopiGXBjI&code=Jonty1&token=41_Cwuu505WDwLP-M8fwHwjscl0C8MacxmS2ZUFXCw9vP645cRhT1VY7uzjqumW4GZ7WtHyriRnQRXkPaAZZGJ_f0-E6AkLnlzFuTZfMF-5aQxKvTJphQz2gzc3sRqEns6CYW4kWZhgeqwpkVqDKXYgAGABOP 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:57:07,879                                   
+【执行时间】[41600]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAuth/AccessToken/071yZKFa1hnDoA0tJ9Ja1AX9hh3yZKF5 GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:57:08,877                                   
+【执行时间】[42598]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "access_token": "41_Zm6iPESKQPF3YJmZgqCDpbEo1YeE8pHhVgvbJux7s6nqJjwaMjxkeE6aIWo9BG7AcZnFwWFjbMfbNyvbIoGgoA",
+    "expires_in": 7200,
+    "refresh_token": "41_RLB0Ui2fyKF4p4ciyMHDlfD5ccZJe5em_JU9pl3T134SHzbxUwfPqrImPfTodsDlNzyWyMJNo_4yNt_3XKaDOg",
+    "openid": "oNkkP57_K0gtMBY0H6WFopiGXBjI",
+    "scope": "snsapi_userinfo",
+    "unionid": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:57:41,570                                   
+【执行时间】[75292]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:57:42,596                                   
+【执行时间】[76317]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExNjU1MDYyIiwibmJmIjoiMTYxMTY1NTA2MiIsImV4cCI6IjE2MTE2NjIyNjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yNi8yMDIxIDE5OjU3OjQyIiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.VDtBOgBPh98LzNH2ypRKO2L9dBz5fRukecxviIj74F4",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:58:27,395                                   
+【执行时间】[121116]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAuth POST  {"accessToken":"41_Zm6iPESKQPF3YJmZgqCDpbEo1YeE8pHhVgvbJux7s6nqJjwaMjxkeE6aIWo9BG7AcZnFwWFjbMfbNyvbIoGgoA","openId":"oNkkP57_K0gtMBY0H6WFopiGXBjI"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:58:27,786                                   
+【执行时间】[121507]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "openid": "oNkkP57_K0gtMBY0H6WFopiGXBjI",
+    "nickname": "Jonty",
+    "sex": 1,
+    "province": "Guangdong",
+    "city": "Guangzhou",
+    "country": "CN",
+    "headimgurl": "https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKf9AQgdWnvfmTL9pRbeicCFvmcicnaxrZ4kcnlEvG1Ds7Hf5MJrEQlm6h6OnPjbKtiakQ7Jc1O8vftQ/132",
+    "privilege": [],
+    "unionid": null
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:58:54,404                                   
+【执行时间】[148126]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/GetAccessToken GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:58:54,805                                   
+【执行时间】[148526]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 400,
+  "success": false,
+  "msg": "获取失败,请重试",
+  "response": null
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 17:59:07,498                                   
+【执行时间】[161219]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/WeChatAPI/SendMessage POST ?type=1&openId=oNkkP57_K0gtMBY0H6WFopiGXBjI&code=HAHAH&token=41_CzKvQgQplD--UGqcaaVqJ7bkwSp2s9D_kT1IHQwaHrH_ka-iyaBF7l4MKAERo35v_V1TbxgFpXLjA4jOJj_5KWgErQLJNDoExx1VOIbwjP_vwCimlh9ix-tRAZPSHQErAw58w_hQJxnzZEtzLEQcABASLX 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:00:09,345                                   
+【执行时间】[223067]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "发送成功",
+  "response": {
+    "errCode": 0,
+    "errMsg": "ok",
+    "msgId": 1712331480183455758
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:28:49,710                                   
+【执行时间】[43975]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:28:50,987                                   
+【执行时间】[45252]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExNjU2OTMwIiwibmJmIjoiMTYxMTY1NjkzMCIsImV4cCI6IjE2MTE2NjQxMzAiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yNi8yMDIxIDIwOjI4OjUwIiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.1010N8X3bXYFTwa0MhL0SgTXF9YgB0Ib-Z58bF1KznE",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:29:10,954                                   
+【执行时间】[65218]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Product GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:29:11,455                                   
+【执行时间】[65720]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": [
+    {
+      "id": 11,
+      "cname": "wjkwk",
+      "uname": "enneneneme",
+      "property": "msmdmmd",
+      "weight": 18,
+      "length": 18,
+      "width": 1881,
+      "height": 18,
+      "quote": 188.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "snnsnsnsns",
+      "cdescribe": "nsnsnnsns",
+      "udescribe": "",
+      "state": 1,
+      "createTime": "2021-01-21T15:25:34.86",
+      "updateTime": "2021-01-21T15:25:34.86",
+      "images": [
+        {
+          "id": 38,
+          "imageUrl": "https://cdn.jonty.top/LZ99b16847-ddb6-4b4a-b4ab-95dc837956bd.jpg"
+        },
+        {
+          "id": 39,
+          "imageUrl": "https://cdn.jonty.top/LZ2955e424-749b-4283-9df1-4f6cbe297e54.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "cname": "11111",
+      "uname": "qqwsddf",
+      "property": "vbwbqnq",
+      "weight": 15181,
+      "length": 151,
+      "width": 1515,
+      "height": 1551,
+      "quote": 1818818.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "nwnnwnw",
+      "cdescribe": "nwnwnmw",
+      "udescribe": "bnwnwnwm",
+      "state": 1,
+      "createTime": "2021-01-26T16:36:08.737",
+      "updateTime": "2021-01-26T16:36:08.737",
+      "images": [
+        {
+          "id": 40,
+          "imageUrl": "https://cdn.jonty.top/LZ4d80c86d-e212-4437-9032-61419a10356e.jpg"
+        },
+        {
+          "id": 41,
+          "imageUrl": "https://cdn.jonty.top/LZd3ab480f-cd60-4899-aab9-2a706ca096af.jpg"
+        },
+        {
+          "id": 42,
+          "imageUrl": "https://cdn.jonty.top/LZ983f1bea-f254-4afb-ac77-e4f16e0b42f7.jpg"
+        },
+        {
+          "id": 43,
+          "imageUrl": "https://cdn.jonty.top/LZ0d6869a4-921b-42f2-bc77-d251fd8c9bf0.jpg"
+        },
+        {
+          "id": 44,
+          "imageUrl": "https://cdn.jonty.top/LZd9d0ac06-3f42-4051-acab-7f72ebd379c2.jpg"
+        },
+        {
+          "id": 45,
+          "imageUrl": "https://cdn.jonty.top/LZfec5aafe-0a6b-4dc1-b6ab-de75f7152d5b.jpg"
+        }
+      ]
+    }
+  ]
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:29:34,469                                   
+【执行时间】[10386]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:29:35,526                                   
+【执行时间】[11444]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExNjU2OTc1IiwibmJmIjoiMTYxMTY1Njk3NSIsImV4cCI6IjE2MTE2NjQxNzUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yNi8yMDIxIDIwOjI5OjM1IiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.iqh3pVbhjXhwFhwsKRPDt8PSJJ5iK9w5NGp7WZsup4g",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:29:50,097                                   
+【执行时间】[26014]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Product GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:29:50,302                                   
+【执行时间】[26220]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": [
+    {
+      "id": 11,
+      "cname": "wjkwk",
+      "uname": "enneneneme",
+      "property": "msmdmmd",
+      "weight": 18,
+      "length": 18,
+      "width": 1881,
+      "height": 18,
+      "quote": 188.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "snnsnsnsns",
+      "cdescribe": "nsnsnnsns",
+      "udescribe": "",
+      "state": 1,
+      "createTime": "2021-01-21T15:25:34.86",
+      "updateTime": "2021-01-21T15:25:34.86",
+      "images": [
+        {
+          "id": 38,
+          "imageUrl": "https://cdn.jonty.top/LZ99b16847-ddb6-4b4a-b4ab-95dc837956bd.jpg"
+        },
+        {
+          "id": 39,
+          "imageUrl": "https://cdn.jonty.top/LZ2955e424-749b-4283-9df1-4f6cbe297e54.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "cname": "11111",
+      "uname": "qqwsddf",
+      "property": "vbwbqnq",
+      "weight": 15181,
+      "length": 151,
+      "width": 1515,
+      "height": 1551,
+      "quote": 1818818.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "nwnnwnw",
+      "cdescribe": "nwnwnmw",
+      "udescribe": "bnwnwnwm",
+      "state": 1,
+      "createTime": "2021-01-26T16:36:08.737",
+      "updateTime": "2021-01-26T16:36:08.737",
+      "images": [
+        {
+          "id": 40,
+          "imageUrl": "https://cdn.jonty.top/LZ4d80c86d-e212-4437-9032-61419a10356e.jpg"
+        },
+        {
+          "id": 41,
+          "imageUrl": "https://cdn.jonty.top/LZd3ab480f-cd60-4899-aab9-2a706ca096af.jpg"
+        },
+        {
+          "id": 42,
+          "imageUrl": "https://cdn.jonty.top/LZ983f1bea-f254-4afb-ac77-e4f16e0b42f7.jpg"
+        },
+        {
+          "id": 43,
+          "imageUrl": "https://cdn.jonty.top/LZ0d6869a4-921b-42f2-bc77-d251fd8c9bf0.jpg"
+        },
+        {
+          "id": 44,
+          "imageUrl": "https://cdn.jonty.top/LZd9d0ac06-3f42-4051-acab-7f72ebd379c2.jpg"
+        },
+        {
+          "id": 45,
+          "imageUrl": "https://cdn.jonty.top/LZfec5aafe-0a6b-4dc1-b6ab-de75f7152d5b.jpg"
+        }
+      ]
+    }
+  ]
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:30:42,237                                   
+【执行时间】[12156]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:30:43,257                                   
+【执行时间】[13176]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExNjU3MDQzIiwibmJmIjoiMTYxMTY1NzA0MyIsImV4cCI6IjE2MTE2NjQyNDMiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yNi8yMDIxIDIwOjMwOjQzIiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.H-yBytD00U-94QBTqzY1XSPzGv2t7MjbXkfZsKOeQtI",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:30:58,406                                   
+【执行时间】[28325]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Product GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:30:58,622                                   
+【执行时间】[28541]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": [
+    {
+      "id": 11,
+      "cname": "wjkwk",
+      "uname": "enneneneme",
+      "property": "msmdmmd",
+      "weight": 18,
+      "length": 18,
+      "width": 1881,
+      "height": 18,
+      "quote": 188.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "snnsnsnsns",
+      "cdescribe": "nsnsnnsns",
+      "udescribe": "",
+      "state": 1,
+      "createTime": "2021-01-21T15:25:34.86",
+      "updateTime": "2021-01-21T15:25:34.86",
+      "images": [
+        {
+          "id": 38,
+          "imageUrl": "https://cdn.jonty.top/LZ99b16847-ddb6-4b4a-b4ab-95dc837956bd.jpg"
+        },
+        {
+          "id": 39,
+          "imageUrl": "https://cdn.jonty.top/LZ2955e424-749b-4283-9df1-4f6cbe297e54.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "cname": "11111",
+      "uname": "qqwsddf",
+      "property": "vbwbqnq",
+      "weight": 15181,
+      "length": 151,
+      "width": 1515,
+      "height": 1551,
+      "quote": 1818818.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "nwnnwnw",
+      "cdescribe": "nwnwnmw",
+      "udescribe": "bnwnwnwm",
+      "state": 1,
+      "createTime": "2021-01-26T16:36:08.737",
+      "updateTime": "2021-01-26T16:36:08.737",
+      "images": [
+        {
+          "id": 40,
+          "imageUrl": "https://cdn.jonty.top/LZ4d80c86d-e212-4437-9032-61419a10356e.jpg"
+        },
+        {
+          "id": 41,
+          "imageUrl": "https://cdn.jonty.top/LZd3ab480f-cd60-4899-aab9-2a706ca096af.jpg"
+        },
+        {
+          "id": 42,
+          "imageUrl": "https://cdn.jonty.top/LZ983f1bea-f254-4afb-ac77-e4f16e0b42f7.jpg"
+        },
+        {
+          "id": 43,
+          "imageUrl": "https://cdn.jonty.top/LZ0d6869a4-921b-42f2-bc77-d251fd8c9bf0.jpg"
+        },
+        {
+          "id": 44,
+          "imageUrl": "https://cdn.jonty.top/LZd9d0ac06-3f42-4051-acab-7f72ebd379c2.jpg"
+        },
+        {
+          "id": 45,
+          "imageUrl": "https://cdn.jonty.top/LZfec5aafe-0a6b-4dc1-b6ab-de75f7152d5b.jpg"
+        }
+      ]
+    }
+  ]
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:32:23,883                                   
+【执行时间】[11244]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:32:24,890                                   
+【执行时间】[12251]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjExNjU3MTQ0IiwibmJmIjoiMTYxMTY1NzE0NCIsImV4cCI6IjE2MTE2NjQzNDQiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMS8yNi8yMDIxIDIwOjMyOjI0IiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.dTBBNInqVbKxqovDhM4iu5sWU6rGQrUUs49V1ToIEiA",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:32:40,845                                   
+【执行时间】[28206]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Product GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-01-26 18:32:41,114                                   
+【执行时间】[28475]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": [
+    {
+      "id": 8,
+      "cname": "最强皮鞋",
+      "uname": "最强皮鞋 The strongest leather shoes",
+      "property": "Black",
+      "weight": 500,
+      "length": 1,
+      "width": 2,
+      "height": 1,
+      "quote": 1.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "2",
+      "cdescribe": "1",
+      "udescribe": "1",
+      "state": 1,
+      "createTime": "2021-01-21T12:03:40.27",
+      "updateTime": "2021-01-21T12:03:40.27",
+      "images": [
+        {
+          "id": 33,
+          "imageUrl": "https://cdn.jonty.top/LZ320df469-14f8-4fcd-8d4f-8565af59108b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "cname": "足球",
+      "uname": "1231",
+      "property": "黑白",
+      "weight": 50,
+      "length": 10,
+      "width": 20,
+      "height": 10,
+      "quote": 35.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "12345",
+      "cdescribe": "好玩诺",
+      "udescribe": "asda",
+      "state": 1,
+      "createTime": "2021-01-26T16:36:03.417",
+      "updateTime": "2021-01-26T16:36:03.417",
+      "images": [
+        {
+          "id": 35,
+          "imageUrl": "https://cdn.jonty.top/LZ7add55e1-0a29-48ca-addc-f4fee07efe62.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "cname": "test",
+      "uname": "",
+      "property": "wjkwkwkwkkw",
+      "weight": 12,
+      "length": 12,
+      "width": 12,
+      "height": 13,
+      "quote": 12.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "wkwkkwkwkkw",
+      "cdescribe": "jejwjjwnwnwwmmmm",
+      "udescribe": "",
+      "state": 1,
+      "createTime": "2021-01-21T15:13:45.45",
+      "updateTime": "2021-01-21T15:13:45.45",
+      "images": [
+        {
+          "id": 36,
+          "imageUrl": "https://cdn.jonty.top/LZ0f8e5717-e1bb-4968-9fbb-654db14caa23.jpg"
+        },
+        {
+          "id": 37,
+          "imageUrl": "https://cdn.jonty.top/LZ71effe4d-02ed-4661-b6ee-3782e7008fe4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "cname": "wjkwk",
+      "uname": "enneneneme",
+      "property": "msmdmmd",
+      "weight": 18,
+      "length": 18,
+      "width": 1881,
+      "height": 18,
+      "quote": 188.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "snnsnsnsns",
+      "cdescribe": "nsnsnnsns",
+      "udescribe": "",
+      "state": 1,
+      "createTime": "2021-01-21T15:25:34.86",
+      "updateTime": "2021-01-21T15:25:34.86",
+      "images": [
+        {
+          "id": 38,
+          "imageUrl": "https://cdn.jonty.top/LZ99b16847-ddb6-4b4a-b4ab-95dc837956bd.jpg"
+        },
+        {
+          "id": 39,
+          "imageUrl": "https://cdn.jonty.top/LZ2955e424-749b-4283-9df1-4f6cbe297e54.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "cname": "11111",
+      "uname": "qqwsddf",
+      "property": "vbwbqnq",
+      "weight": 15181,
+      "length": 151,
+      "width": 1515,
+      "height": 1551,
+      "quote": 1818818.0000,
+      "productLink": "https://api.lianzhoukuajing.com",
+      "shopLink": "nwnnwnw",
+      "cdescribe": "nwnwnmw",
+      "udescribe": "bnwnwnwm",
+      "state": 1,
+      "createTime": "2021-01-26T16:36:08.737",
+      "updateTime": "2021-01-26T16:36:08.737",
+      "images": [
+        {
+          "id": 40,
+          "imageUrl": "https://cdn.jonty.top/LZ4d80c86d-e212-4437-9032-61419a10356e.jpg"
+        },
+        {
+          "id": 41,
+          "imageUrl": "https://cdn.jonty.top/LZd3ab480f-cd60-4899-aab9-2a706ca096af.jpg"
+        },
+        {
+          "id": 42,
+          "imageUrl": "https://cdn.jonty.top/LZ983f1bea-f254-4afb-ac77-e4f16e0b42f7.jpg"
+        },
+        {
+          "id": 43,
+          "imageUrl": "https://cdn.jonty.top/LZ0d6869a4-921b-42f2-bc77-d251fd8c9bf0.jpg"
+        },
+        {
+          "id": 44,
+          "imageUrl": "https://cdn.jonty.top/LZd9d0ac06-3f42-4051-acab-7f72ebd379c2.jpg"
+        },
+        {
+          "id": 45,
+          "imageUrl": "https://cdn.jonty.top/LZfec5aafe-0a6b-4dc1-b6ab-de75f7152d5b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "cname": "123",
+      "uname": "1231341",
+      "property": "12342131",
+      "weight": 123,
+      "length": 1,
+      "width": 1,
+      "height": 1,
+      "quote": 1.0000,
+      "productLink": "2131",
+      "shopLink": "1231",
+      "cdescribe": "1233",
+      "udescribe": "1321",
+      "state": 1,
+      "createTime": "2021-01-26T10:35:34.13",
+      "updateTime": "2021-01-26T10:35:34.13",
+      "images": [
+        {
+          "id": 48,
+          "imageUrl": "https://cdn.jonty.top/LZ3030a982-1ec2-4b10-b658-75aa68ccf6db.png"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "cname": "1",
+      "uname": "1",
+      "property": "123",
+      "weight": 1231,
+      "length": 1231,
+      "width": 1231,
+      "height": 123,
+      "quote": 123.0000,
+      "productLink": "123",
+      "shopLink": "123",
+      "cdescribe": "12314",
+      "udescribe": "123131",
+      "state": 1,
+      "createTime": "2021-01-26T15:25:35.827",
+      "updateTime": "2021-01-26T15:25:35.827",
+      "images": [
+        {
+          "id": 50,
+          "imageUrl": "https://cdn.jonty.top/LZ47cf7df6-d7cf-4580-ab77-5e646b8ad9ab.png"
+        }
+      ]
+    }
+  ]
+}

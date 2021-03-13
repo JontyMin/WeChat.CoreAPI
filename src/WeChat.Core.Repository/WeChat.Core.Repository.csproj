@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SqlSugarCore" Version="5.0.1.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeChat.Core.Common\WeChat.Core.Common.csproj" />
+    <ProjectReference Include="..\WeChat.Core.IRepository\WeChat.Core.IRepository.csproj" />
+    <ProjectReference Include="..\WeChat.Core.Model\WeChat.Core.Model.csproj" />
+  </ItemGroup>
+
+</Project>

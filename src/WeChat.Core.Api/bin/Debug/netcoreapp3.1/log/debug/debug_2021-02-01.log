@@ -1,0 +1,91 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-02-01 14:44:27,529                                   
+【执行时间】[1348]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存41__WTY-8_zh0gmPB5zcbH2O0b81jVHAuDLWPRCmL1EfL6dVuzaHu6HZql9G69yWH3jwBzp27hw1k1A3pfxcVt9WIkSZy7jaaE_FudLevcClVtGUK8epq0h9D3Ji6K54AzDlE8vEjQM4ZJG1SVPCNGiAIAHSL
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-02-01 14:44:52,239                                   
+【执行时间】[26057]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-02-01 14:44:53,227                                   
+【执行时间】[27045]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjEyMTYxODkzIiwibmJmIjoiMTYxMjE2MTg5MyIsImV4cCI6IjE2MTIxNjkwOTMiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMi8wMS8yMDIxIDE2OjQ0OjUzIiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.fUNtZQosR_jAlhNwsvUDK8wpHIdxKfotzwBL_BcIAik",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-02-01 14:44:59,823                                   
+【执行时间】[33641]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"admin","passWord":"123123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-02-01 14:44:59,857                                   
+【执行时间】[33676]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": false,
+  "message": "\u8D26\u53F7\u6216\u5BC6\u7801\u9519\u8BEF"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-02-01 14:54:53,820                                   
+【执行时间】[896]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存41__WTY-8_zh0gmPB5zcbH2O0b81jVHAuDLWPRCmL1EfL6dVuzaHu6HZql9G69yWH3jwBzp27hw1k1A3pfxcVt9WIkSZy7jaaE_FudLevcClVtGUK8epq0h9D3Ji6K54AzDlE8vEjQM4ZJG1SVPCNGiAIAHSL
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-02-01 14:55:05,353                                   
+【执行时间】[12429]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-02-01 14:55:06,255                                   
+【执行时间】[13331]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjEyMTYyNTA2IiwibmJmIjoiMTYxMjE2MjUwNiIsImV4cCI6IjE2MTIxNjk3MDYiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMi8wMS8yMDIxIDE2OjU1OjA2IiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.1hEuFy8mdRg4Tvu68mSrZMOwW017mTDK5Gf8Aq0N9GY",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-02-01 15:16:43,869                                   
+【执行时间】[1569]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存41__WTY-8_zh0gmPB5zcbH2O0b81jVHAuDLWPRCmL1EfL6dVuzaHu6HZql9G69yWH3jwBzp27hw1k1A3pfxcVt9WIkSZy7jaaE_FudLevcClVtGUK8epq0h9D3Ji6K54AzDlE8vEjQM4ZJG1SVPCNGiAIAHSL
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-02-01 15:17:04,095                                   
+【执行时间】[21795]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/JwtToken POST  {"userName":"admin","passWord":"123"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-02-01 15:17:05,065                                   
+【执行时间】[22765]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiNSIsImp0aSI6IjUiLCJpYXQiOiIxNjEyMTYzODI1IiwibmJmIjoiMTYxMjE2MzgyNSIsImV4cCI6IjE2MTIxNzEwMjUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiIwMi8wMS8yMDIxIDE3OjE3OjA1IiwiaXNzIjoiSm9udHlXYW5nIiwiYXVkIjoiU3VwcGxpZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJzdXBwbGllciJ9.j9OdEeT_Qet_dp5HiQvL53lSuM-3NE6Hl6kejaEBxHA",
+  "expires_in": 7200,
+  "token_type": "Bearer"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-02-01 15:17:33,113                                   
+【执行时间】[50813]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Product/like=1 GET  
