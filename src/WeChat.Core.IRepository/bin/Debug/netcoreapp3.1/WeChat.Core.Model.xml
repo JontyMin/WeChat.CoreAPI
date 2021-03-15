@@ -1109,6 +1109,11 @@
             更新时间
             </summary>
         </member>
+        <member name="P:WeChat.Core.Model.EntityModel.WeChatSupplyProduct.CategoryName">
+            <summary>
+            类目名称
+            </summary>
+        </member>
         <member name="T:WeChat.Core.Model.EntityModel.WeChatSupplyProductImg">
             <summary>
             供应产品图片
@@ -1523,6 +1528,11 @@
         <member name="P:WeChat.Core.Model.ViewModel.SupplyProductViewModel.Images">
             <summary>
             图片链接
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.ViewModel.SupplyProductViewModel.CategoryName">
+            <summary>
+            类目名称
             </summary>
         </member>
     </members>

@@ -116,5 +116,22 @@ namespace WeChat.Core.Model.EntityModel
         /// 更新时间
         /// </summary>
         public System.DateTime? UpdateTime { get { return this._UpdateTime; } set { this._UpdateTime = value ?? default(System.DateTime); } }
+
+
+        private System.String _CategoryName;
+        /// <summary>
+        /// 类目名称
+        /// </summary>
+        public System.String CategoryName
+        {
+            get
+            {
+                return this._CategoryName;
+            }
+            set
+            {
+                this._CategoryName = value?.Trim();
+            }
+        }
     }
 }

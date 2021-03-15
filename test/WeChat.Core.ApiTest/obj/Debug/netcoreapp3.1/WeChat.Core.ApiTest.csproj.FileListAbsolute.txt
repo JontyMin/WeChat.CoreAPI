@@ -456,3 +456,9 @@ E:\2021年\WeChat.Core.Api\WeChat.Core.Api\test\WeChat.Core.ApiTest\obj\Debug\ne
 E:\2021年\WeChat.Core.Api\WeChat.Core.Api\test\WeChat.Core.ApiTest\obj\Debug\netcoreapp3.1\WeChat.Core.ApiTest.dll
 E:\2021年\WeChat.Core.Api\WeChat.Core.Api\test\WeChat.Core.ApiTest\obj\Debug\netcoreapp3.1\WeChat.Core.ApiTest.pdb
 E:\2021年\WeChat.Core.Api\WeChat.Core.Api\test\WeChat.Core.ApiTest\obj\Debug\netcoreapp3.1\WeChat.Core.ApiTest.genruntimeconfig.cache
+F:\GitHub\LZ.WeChat.CoreAPI\test\WeChat.Core.ApiTest\obj\Debug\netcoreapp3.1\WeChat.Core.ApiTest.csprojAssemblyReference.cache
+F:\GitHub\LZ.WeChat.CoreAPI\test\WeChat.Core.ApiTest\obj\Debug\netcoreapp3.1\WeChat.Core.ApiTest.AssemblyInfoInputs.cache
+F:\GitHub\LZ.WeChat.CoreAPI\test\WeChat.Core.ApiTest\obj\Debug\netcoreapp3.1\WeChat.Core.ApiTest.AssemblyInfo.cs
+F:\GitHub\LZ.WeChat.CoreAPI\test\WeChat.Core.ApiTest\obj\Debug\netcoreapp3.1\WeChat.Core.ApiTest.csproj.CoreCompileInputs.cache
+F:\GitHub\LZ.WeChat.CoreAPI\test\WeChat.Core.ApiTest\obj\Debug\netcoreapp3.1\WeChat.Core.ApiTest.dll
+F:\GitHub\LZ.WeChat.CoreAPI\test\WeChat.Core.ApiTest\obj\Debug\netcoreapp3.1\WeChat.Core.ApiTest.pdb

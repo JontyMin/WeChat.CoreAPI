@@ -34,3 +34,12 @@ D:\Tencent\Cache\WXWork\1688850268778784\Cache\File\2021-03\WeChat.Core.Api\src\
 D:\Tencent\Cache\WXWork\1688850268778784\Cache\File\2021-03\WeChat.Core.Api\src\WeChat.Core.Common\obj\Release\netcoreapp3.1\WeChat.Core.Common.csproj.CoreCompileInputs.cache
 D:\Tencent\Cache\WXWork\1688850268778784\Cache\File\2021-03\WeChat.Core.Api\src\WeChat.Core.Common\obj\Release\netcoreapp3.1\WeChat.Core.Common.dll
 D:\Tencent\Cache\WXWork\1688850268778784\Cache\File\2021-03\WeChat.Core.Api\src\WeChat.Core.Common\obj\Release\netcoreapp3.1\WeChat.Core.Common.pdb
+F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\bin\Release\netcoreapp3.1\WeChat.Core.Common.deps.json
+F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\bin\Release\netcoreapp3.1\WeChat.Core.Common.dll
+F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\bin\Release\netcoreapp3.1\WeChat.Core.Common.pdb
+F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\obj\Release\netcoreapp3.1\WeChat.Core.Common.csprojAssemblyReference.cache
+F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\obj\Release\netcoreapp3.1\WeChat.Core.Common.AssemblyInfoInputs.cache
+F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\obj\Release\netcoreapp3.1\WeChat.Core.Common.AssemblyInfo.cs
+F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\obj\Release\netcoreapp3.1\WeChat.Core.Common.csproj.CoreCompileInputs.cache
+F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\obj\Release\netcoreapp3.1\WeChat.Core.Common.dll
+F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\obj\Release\netcoreapp3.1\WeChat.Core.Common.pdb

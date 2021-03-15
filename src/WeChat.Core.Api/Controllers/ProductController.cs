@@ -112,9 +112,9 @@ namespace WeChat.Core.Api.Controllers
         public async Task<MessageModel<SupplyProductViewModel>> Get(string id)
         {
             var data = await _weChatSupplyProductService.QueryById(id);
-            var imgs = await _supplyProductImgService.Query(x => x.PId == data.Id);
+            var images = await _supplyProductImgService.Query(x => x.PId == data.Id);
             var supplyProduct = _mapper.Map<WeChatSupplyProduct, SupplyProductViewModel>(data);
-            supplyProduct.Images = _mapper.Map<List<ImageViewModel>>(imgs);
+            supplyProduct.Images = _mapper.Map<List<ImageViewModel>>(images);
             return new MessageModel<SupplyProductViewModel>()
             {
                 msg = "获取成功",
@@ -166,12 +166,12 @@ namespace WeChat.Core.Api.Controllers
 
             if (model.Images.Any())
             {
-                var imgs = _mapper.Map<List<WeChatSupplyProductImg>>(model.Images);
-                imgs.ForEach(x =>
+                var images = _mapper.Map<List<WeChatSupplyProductImg>>(model.Images);
+                images.ForEach(x =>
                 {
                     x.PId = pId;
                 });
-                data.success = await _supplyProductImgService.Add(imgs) > 0;
+                data.success = await _supplyProductImgService.Add(images) > 0;
                 if (data.success)
                 {
                     data.status = 200;
@@ -316,17 +316,29 @@ namespace WeChat.Core.Api.Controllers
                     response = categoryData
                 };
             }
+            
             var data = new MessageModel<List<DTOTree>>();
             var categoryTreeAll = await _categoryFormEbayUkService.Query();
-            List<DTOTree> dtilist = GetCategoryTree(categoryTreeAll, 0);
-            data.status = 200;
-            data.msg = "下架成功";
-            data.response = dtilist;
+            List<DTOTree> categoryTree = GetCategoryTree(categoryTreeAll, 0);
+            if (categoryTree.Any())
+            {
+                data.status = 200;
+                data.msg = "获取成功";
+                data.response = categoryTree;
 
-            _redisCache.Set(CATEGORY_CACHE_KEY, dtilist, TimeSpan.FromDays(30));
+                _redisCache.Set(CATEGORY_CACHE_KEY, categoryTree, TimeSpan.FromDays(30));
 
+                return data;
+            }
+
+            data.status = 404;
+            data.success = false;
             return data;
+
         }
+
+
+        #region Private Method
 
         /// <summary>
         /// 递归树
@@ -336,17 +348,15 @@ namespace WeChat.Core.Api.Controllers
         /// <returns></returns>
         private List<DTOTree> GetCategoryTree(List<CategoryFormEbayUK> listDataSource, int parentId)
         {
-            List<CategoryFormEbayUK> listNew = (List<CategoryFormEbayUK>)listDataSource.Where(d => d.ParentID == Convert.ToInt32(parentId)).ToList();
-            List<DTOTree> listResult = new List<DTOTree>();
-
-            foreach (CategoryFormEbayUK item in listNew)
+            var listNew = listDataSource.Where(d => d.ParentID == Convert.ToInt32(parentId)).ToList();
+            var listResult = new List<DTOTree>();
+            foreach (var item in listNew)
             {
-                DTOTree tree = new DTOTree {value = item.CategoryID.ToString(), text = item.CNDescription};
+                var tree = new DTOTree {value = item.CategoryID.ToString(), text = item.CNDescription};
 
                 tree.children = GetTreeMod(listDataSource, tree.value);
                 listResult.Add(tree);
             }
-
             return listResult;
         }
         /// <summary>
@@ -360,5 +370,7 @@ namespace WeChat.Core.Api.Controllers
             
             return GetCategoryTree(listDataSource, Convert.ToInt32(parentId));
         }
+        
+        #endregion
     }
 }

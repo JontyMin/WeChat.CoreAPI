@@ -80,5 +80,9 @@ namespace WeChat.Core.Model.ViewModel
         /// 图片链接
         /// </summary>
         public List<ImageViewModel> Images { get; set; }
+        /// <summary>
+        /// 类目名称
+        /// </summary>
+        public string CategoryName { get; set; }
     }
 }
