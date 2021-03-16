@@ -57,6 +57,32 @@ namespace WeChat.Core.Common.Helper
             return pwd;
         }
 
+
+        /// <summary>
+        /// 用MD5加密字符串，可选择生成16位或者32位的加密字符串
+        /// </summary>
+        /// <param name="encoder">待加密的字符串</param>
+        /// <param name="bit">位数，一般取值16 或 32</param>
+        /// <returns>返回加密后的字符串</returns>
+        public static string MD5Encrypt(string encoder, int bit)
+        {
+            MD5CryptoServiceProvider md5Hasher = new MD5CryptoServiceProvider();
+            byte[] hashedDataBytes;
+            hashedDataBytes = md5Hasher.ComputeHash(Encoding.GetEncoding("gb2312").GetBytes(encoder));
+            StringBuilder tmp = new StringBuilder();
+            foreach (byte i in hashedDataBytes)
+            {
+                tmp.Append(i.ToString("x2"));
+            }
+            tmp.Replace(tmp.ToString(), tmp.ToString().ToUpper());//ToUpper将字符串转换为大写
+            if (bit == 16)
+                return tmp.ToString().Substring(8, 16);
+            else if (bit == 32)
+                return tmp.ToString(); //默认情况
+            else
+                return string.Empty;
+        }
+
         /// <summary>
         /// 64位MD5加密
         /// </summary>

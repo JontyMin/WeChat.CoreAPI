@@ -68,6 +68,13 @@ namespace WeChat.Core.IService.BASE
         /// <returns></returns>
         Task<bool> DeleteByIds(object[] ids);
 
+        /// <summary>
+        /// 条件删除
+        /// </summary>
+        /// <param name="whereExpression"></param>
+        /// <returns></returns>
+        Task<int> Deleteable(Expression<Func<T, bool>> whereExpression);
+
         #endregion
 
         #region Update

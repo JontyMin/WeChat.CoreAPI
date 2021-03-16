@@ -23,3 +23,543 @@
 【执行时间】[15243]毫秒                                   
 【debug位置】System.String 属性[(null)]                                   
 【debug描述】更新动态销售额:2021/3/15 9:27:03
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 11:07:16,819                                   
+【执行时间】[3326]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 11:07:16,928                                   
+【执行时间】[3435]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 11:07:20,550                                   
+【执行时间】[7057]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 11:07:20
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 11:07:29,035                                   
+【执行时间】[15541]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 11:07:29
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 11:08:22,876                                   
+【执行时间】[69382]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Account/ErpToken POST  {"userName":"Wangjintao","passWord":"321517"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 11:08:40,674                                   
+【执行时间】[87180]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 11:09:02,937                                   
+【执行时间】[109443]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTLK1424182721YQ/Mercado GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 11:09:39,843                                   
+【执行时间】[146349]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 11:09:54,011                                   
+【执行时间】[160518]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ANTLK1424182721YQ/Mercado GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 16:50:52,302                                   
+【执行时间】[2522]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 16:50:52,325                                   
+【执行时间】[2545]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 16:50:55,927                                   
+【执行时间】[6147]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 16:50:55
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 16:51:07,189                                   
+【执行时间】[17409]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 16:51:07
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 16:51:08,958                                   
+【执行时间】[19178]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=1&sign=1&nonce=1&timespan=1 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 16:51:09,456                                   
+【执行时间】[19676]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 16:58:45,170                                   
+【执行时间】[4936]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 16:58:45,226                                   
+【执行时间】[4991]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 16:58:50,703                                   
+【执行时间】[10468]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 16:58:50
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 16:59:01,391                                   
+【执行时间】[21157]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 16:59:01
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 16:59:15,382                                   
+【执行时间】[35148]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=7CB1E70F9A260C650416DD789CBE39B0&nonce=592536&timespan=1615798744 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:00:40,299                                   
+【执行时间】[1508]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:00:40,329                                   
+【执行时间】[1538]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 17:00:42,626                                   
+【执行时间】[3835]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=82FDEF0F30B03692798B0CB2D76D631E&nonce=566987&timespan=1615798842 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 17:00:42,988                                   
+【执行时间】[4197]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:00:43,654                                   
+【执行时间】[4863]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 17:00:43
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:00:52,725                                   
+【执行时间】[13934]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 17:00:52
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:06:42,340                                   
+【执行时间】[363549]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 17:06:42
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:06:49,869                                   
+【执行时间】[371078]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 17:06:49
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:12:44,016                                   
+【执行时间】[725225]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 17:12:44
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:12:51,926                                   
+【执行时间】[733135]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 17:12:51
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:18:42,718                                   
+【执行时间】[1083927]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 17:18:42
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:18:50,106                                   
+【执行时间】[1091315]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 17:18:50
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:24:42,421                                   
+【执行时间】[1443630]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 17:24:42
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:24:49,854                                   
+【执行时间】[1451063]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 17:24:49
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:29:16,694                                   
+【执行时间】[3126]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:29:16,725                                   
+【执行时间】[3157]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:29:21,293                                   
+【执行时间】[7725]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 17:29:21
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:29:30,296                                   
+【执行时间】[16729]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 17:29:30
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:31:56,786                                   
+【执行时间】[2817]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:31:56,886                                   
+【执行时间】[2916]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:32:00,799                                   
+【执行时间】[6830]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 17:32:00
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:32:09,336                                   
+【执行时间】[15367]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 17:32:09
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 17:32:21,989                                   
+【执行时间】[28020]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=609CC2430B10CC22B896694382262CF9&nonce=824005&timespan=1615800741 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:34:13,405                                   
+【执行时间】[4041]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:34:13,433                                   
+【执行时间】[4069]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:34:16,155                                   
+【执行时间】[6791]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 17:34:16
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 17:34:19,382                                   
+【执行时间】[10018]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=2373C2A1F229CCA581F5036826A92ED2&nonce=325819&timespan=1615800859 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:35:43,275                                   
+【执行时间】[3954]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:35:43,301                                   
+【执行时间】[3980]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:35:46,230                                   
+【执行时间】[6909]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 17:35:46
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 17:35:47,827                                   
+【执行时间】[8505]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=3C520F01C082751227E26C0488A38E25&nonce=133214&timespan=1615800947 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 17:36:00,112                                   
+【执行时间】[20790]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 17:36:00,112                                   
+【执行时间】[20791]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 17:36:00
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:01:33,957                                   
+【执行时间】[4024]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:01:34,061                                   
+【执行时间】[4128]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:01:40,612                                   
+【执行时间】[10679]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 18:01:40
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:02:11,839                                   
+【执行时间】[4454]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:02:11,958                                   
+【执行时间】[4573]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:02:16,277                                   
+【执行时间】[8893]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 18:02:16
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:02:30,902                                   
+【执行时间】[23518]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 18:02:30
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:03:53,292                                   
+【执行时间】[1653]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:03:53,337                                   
+【执行时间】[1698]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:03:56,682                                   
+【执行时间】[5043]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 18:03:56
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:04:04,573                                   
+【执行时间】[12934]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 18:04:04
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:04:42,463                                   
+【执行时间】[1327]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:04:42,497                                   
+【执行时间】[1361]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:04:45,853                                   
+【执行时间】[4717]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 18:04:45
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:04:53,674                                   
+【执行时间】[12538]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 18:04:53
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:05:08,857                                   
+【执行时间】[4589]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:05:09,095                                   
+【执行时间】[4827]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:05:13,823                                   
+【执行时间】[9555]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 18:05:13
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 18:05:16,358                                   
+【执行时间】[12090]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=720C893F077FB6553200627B60B4B7D0&nonce=260589&timespan=1615802713 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:05:26,672                                   
+【执行时间】[22404]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 18:05:26
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 18:05:31,407                                   
+【执行时间】[27139]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:18:37,869                                   
+【执行时间】[1476]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:18:37,919                                   
+【执行时间】[1526]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:18:40,768                                   
+【执行时间】[4375]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 18:18:40
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:18:48,336                                   
+【执行时间】[11943]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 18:18:48
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:19:13,962                                   
+【执行时间】[1271]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:19:13,987                                   
+【执行时间】[1296]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:19:17,358                                   
+【执行时间】[4667]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 18:19:17
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 18:19:20,042                                   
+【执行时间】[7351]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Home GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 18:19:20,981                                   
+【执行时间】[8290]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:19:25,229                                   
+【执行时间】[12538]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 18:19:25
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:19:51,402                                   
+【执行时间】[1375]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:19:51,447                                   
+【执行时间】[1420]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:19:54,386                                   
+【执行时间】[4359]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/15 18:19:54
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 18:19:56,403                                   
+【执行时间】[6376]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Home GET  
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-15 18:19:57,074                                   
+【执行时间】[7047]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-15 18:20:01,937                                   
+【执行时间】[11910]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/15 18:20:01

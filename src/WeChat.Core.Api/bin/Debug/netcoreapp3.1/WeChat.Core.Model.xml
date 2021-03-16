@@ -109,6 +109,36 @@
             
             </summary>
         </member>
+        <member name="T:WeChat.Core.Model.EntityModel.ERP.PlatformInfos">
+            <summary>
+            平台信息表
+            </summary>
+        </member>
+        <member name="M:WeChat.Core.Model.EntityModel.ERP.PlatformInfos.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PlatformInfos.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PlatformInfos.PlatformNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PlatformInfos.PlatformName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PlatformInfos.CreateTime">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:WeChat.Core.Model.EntityModel.ERP.PurchaseOrders.#ctor">
             <summary>
             采购订单信息
@@ -357,6 +387,336 @@
         <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseOrders.PrintUserName">
             <summary>
             打印人
+            </summary>
+        </member>
+        <member name="T:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts">
+            <summary>
+            采购产品表
+            </summary>
+        </member>
+        <member name="M:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.#ctor">
+            <summary>
+            采购产品表
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.Pno">
+            <summary>
+            批次号
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.Sku">
+            <summary>
+            Sku
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.Poa">
+            <summary>
+            Poa
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.ProductId">
+            <summary>
+            产品ID
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PropertyId">
+            <summary>
+            产品属性ID
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PreparGoodsStatus">
+            <summary>
+            备货状态 1待备货 2已采购 3运送中 4已签收
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.IsInputPurchaseInfo">
+            <summary>
+            是否已经录入采购信息 1是 0否
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PurchaseTime">
+            <summary>
+            采购时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PurchaseNo">
+            <summary>
+            采购单号
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PurchaseUserName">
+            <summary>
+            采购人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.SupplierName">
+            <summary>
+            供应商名
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.SupplierTel">
+            <summary>
+            供应商联系方式
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PurchaseTrackNo">
+            <summary>
+            采购运单号
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.CategoryId">
+            <summary>
+            类目ID
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.CategroyName">
+            <summary>
+            类目名称
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PurchaseAccountName">
+            <summary>
+            采购账号
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PurchaseCount">
+            <summary>
+            采购数据量
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PurchaseAmount">
+            <summary>
+            采购金额
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PurchaseShipping">
+            <summary>
+            采购运费
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.Memo">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.CreateUserId">
+            <summary>
+            创建人ID
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.ModifyTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.MoidfyUserId">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.IsDeleted">
+            <summary>
+            是否删除
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.EnterWareHouseCount">
+            <summary>
+            入库数量
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.EnterWarehouseUserName">
+            <summary>
+            入库人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.EnterWarehouseTime">
+            <summary>
+            入库时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.WaitPurchaseCount">
+            <summary>
+            当前待备货数量
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PurchasePrice">
+            <summary>
+            采购价格
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.Examiner">
+            <summary>
+            核定人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.ExamineTime">
+            <summary>
+            核定时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.IsReminder">
+            <summary>
+            是否已催单
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.ReminderTime">
+            <summary>
+            催单时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.ReminderMemo">
+            <summary>
+            催单备注
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.IsCancel">
+            <summary>
+            是否废除
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.CancelReason">
+            <summary>
+            废除原因
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.CancelUserName">
+            <summary>
+            废除人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.SurplusCount">
+            <summary>
+            剩余数量
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.IsRetrieval">
+            <summary>
+            是否已出库
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.IsTraceStatus">
+            <summary>
+            是否快递签收
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.TraceStatusTime">
+            <summary>
+            快递签收时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.IsReplenish">
+            <summary>
+            是否补货
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.CreateUserName">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.RecordTime">
+            <summary>
+            记录时间(临时用)
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PayAmountTime">
+            <summary>
+            超级买家付款时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.MarkOrderCount">
+            <summary>
+            标记出单数量
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.GoodsIdentifying">
+            <summary>
+            货物标识(0:正常，2:货物错误，3:破损件，4:未核定)
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.ErrorCode">
+            <summary>
+            错误编号
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.LeadingCadre">
+            <summary>
+            责任人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.ErrorImageUrl">
+            <summary>
+            错误标识图片
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.IdentifyingTime">
+            <summary>
+            标识时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.IdentifyingUserName">
+            <summary>
+            标识人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.PrintCodeTime">
+            <summary>
+            条码打印时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.IsMeasureSize">
+            <summary>
+            是否需要量尺寸：0.不需要  1.需要
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.VolumeLength">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.VolumeWidth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.VolumeHeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.StockWeight">
+            <summary>
+            入库时填写的重量(kg)
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.ChoiceUserName">
+            <summary>
+            备货人(出库管理拉到待备货以及拣货拉到备货管理)
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.ChoiceTime">
+            <summary>
+            备货时间(出库管理拉到待备货以及拣货拉到备货管理)
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.IsAgainDelivery">
+            <summary>
+            是否重新发货(针对已经发货到分拣中心后丢件得需要重新发货)
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.PurchaseProducts.IsAccessories">
+            <summary>
+            是否补充信息
             </summary>
         </member>
         <member name="T:WeChat.Core.Model.EntityModel.ERP.PurchaseQuestion">
@@ -614,6 +974,86 @@
             
             </summary>
         </member>
+        <member name="M:WeChat.Core.Model.EntityModel.ERP.ScanningCheck.#ctor">
+            <summary>
+            收件
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheck.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheck.OrderNo">
+            <summary>
+            采购订单号
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheck.PurchaseTrackNo">
+            <summary>
+            快递单号
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheck.AddTime">
+            <summary>
+            收件时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheck.IsCheck">
+            <summary>
+            是否核实（0：待核实，1：已核实）
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheck.CheckText">
+            <summary>
+            待核实/已核实
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheck.ScanDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WeChat.Core.Model.EntityModel.ERP.ScanningCheckTmp.#ctor">
+            <summary>
+            收件管理临时表
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheckTmp.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheckTmp.OrderNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheckTmp.PurchaseTrackNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheckTmp.AddTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheckTmp.IsCheck">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheckTmp.CheckText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.ScanningCheckTmp.ScanDate">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:WeChat.Core.Model.EntityModel.ERP.StockOperateRecord.#ctor">
             <summary>
             仓储操作记录
@@ -682,6 +1122,186 @@
         <member name="P:WeChat.Core.Model.EntityModel.ERP.StockOperateRecord.Memo">
             <summary>
             
+            </summary>
+        </member>
+        <member name="T:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders">
+            <summary>
+            超级买家订单表
+            </summary>
+        </member>
+        <member name="M:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.#ctor">
+            <summary>
+            超级买家订单表
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.Id">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.OrderNo">
+            <summary>
+            单号
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.DiscountAmount">
+            <summary>
+            折扣金额
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.TotalAmount">
+            <summary>
+            总金额
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.ShippingFee">
+            <summary>
+            运费
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.Refund">
+            <summary>
+            退款金额
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.OrderCreatTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.OrderRemark">
+            <summary>
+            订单备注
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.SellerName">
+            <summary>
+            卖家联系人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.SellerCompanyName">
+            <summary>
+            卖家公司名称
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.SellerMobile">
+            <summary>
+            移动电话
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.SellerPhone">
+            <summary>
+            固定电话
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.SellerEmail">
+            <summary>
+            卖家邮箱
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.SumProductPayment">
+            <summary>
+            产品总金额
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.ReceiverName">
+            <summary>
+            收件人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.CreateUserName">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.CreatTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.ModifyUserName">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.ModifyTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.TradePayWayDesc">
+            <summary>
+            支付方式
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.TradePayStatusDesc">
+            <summary>
+            支付状态
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.TradePhasAmount">
+            <summary>
+            支付金额
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.LogisticsCompanyName">
+            <summary>
+            物流公司
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.LogisticsBillNo">
+            <summary>
+            物流编号
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.TradePayTime">
+            <summary>
+            支付时间
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.SenderAddress">
+            <summary>
+            发货地址
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.TraceStatus">
+            <summary>
+            物流跟踪状态(WAITACCEPT:未受理;CANCEL:已撤销;ACCEPT:已受理;TRANSPORT:运输中;NOGET:揽件失败;SIGN:已签收;UNSIGN:签收异常)
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.TradeType">
+            <summary>
+            交易类型
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.IsCreditOrder">
+            <summary>
+            是否诚e赊交易方式
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.IsHaste">
+            <summary>
+            是否催件
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.Memo">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.HasteUser">
+            <summary>
+            催件人
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.EntityModel.ERP.SuperBuyerOrders.HasteTime">
+            <summary>
+            催件时间
             </summary>
         </member>
         <member name="M:WeChat.Core.Model.EntityModel.ERP.User.#ctor">
@@ -1109,6 +1729,11 @@
             更新时间
             </summary>
         </member>
+        <member name="P:WeChat.Core.Model.EntityModel.WeChatSupplyProduct.CategoryName">
+            <summary>
+            类目名称
+            </summary>
+        </member>
         <member name="T:WeChat.Core.Model.EntityModel.WeChatSupplyProductImg">
             <summary>
             供应产品图片
@@ -1355,6 +1980,21 @@
             扫描时间
             </summary>
         </member>
+        <member name="P:WeChat.Core.Model.ViewModel.ERP.ScanStatus.PurchaseNo">
+            <summary>
+            采购单号
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.ViewModel.ERP.ScanStatus.Verify">
+            <summary>
+            是否核实
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.ViewModel.ERP.ScanStatus.LogisticsCompanyName">
+            <summary>
+            快递公司名称
+            </summary>
+        </member>
         <member name="T:WeChat.Core.Model.ViewModel.ImageViewModel">
             <summary>
             图片模型
@@ -1523,6 +2163,11 @@
         <member name="P:WeChat.Core.Model.ViewModel.SupplyProductViewModel.Images">
             <summary>
             图片链接
+            </summary>
+        </member>
+        <member name="P:WeChat.Core.Model.ViewModel.SupplyProductViewModel.CategoryName">
+            <summary>
+            类目名称
             </summary>
         </member>
     </members>

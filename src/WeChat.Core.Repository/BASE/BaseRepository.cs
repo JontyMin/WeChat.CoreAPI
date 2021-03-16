@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using Ubiety.Dns.Core.Records.NotUsed;
 using WeChat.Core.IRepository.BASE;
 using WeChat.Core.Repository.SqlSugar;
 
@@ -83,6 +84,16 @@ namespace WeChat.Core.Repository.BASE
         public async Task<bool> DeleteByIds(object[] ids)
         {
             return await Db.Deleteable<T>().In(ids).ExecuteCommandHasChangeAsync();
+        }
+
+        /// <summary>
+        /// 条件删除
+        /// </summary>
+        /// <param name="whereExpression"></param>
+        /// <returns></returns>
+        public async Task<int> Deleteable(Expression<Func<T, bool>> whereExpression)
+        {
+            return await Db.Deleteable<T>().Where(whereExpression).ExecuteCommandAsync();
         }
 
         /// <summary>

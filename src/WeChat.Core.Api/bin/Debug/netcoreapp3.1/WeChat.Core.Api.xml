@@ -114,6 +114,13 @@
             仓储Uni-App API
             </summary>
         </member>
+        <member name="M:WeChat.Core.Api.Controllers.DepotController.Get(System.String)">
+            <summary>
+            查询订单扫描信息
+            </summary>
+            <param name="trackNo"></param>
+            <returns></returns>
+        </member>
         <member name="M:WeChat.Core.Api.Controllers.DepotController.Get(System.String,System.String)">
             <summary>
             查询订单扫描信息
@@ -122,18 +129,28 @@
             <param name="platform"></param>
             <returns></returns>
         </member>
-        <member name="M:WeChat.Core.Api.Controllers.DepotController.Get(System.String)">
-            <summary>
-            查询订单扫描信息
-            </summary>
-            <param name="trackNo"></param>
-            <returns></returns>
-        </member>
         <member name="M:WeChat.Core.Api.Controllers.DepotController.Post(WeChat.Core.Model.ViewModel.ERP.ScanWeightViewModel)">
             <summary>
             出库扫描称重
             </summary>
             <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeChat.Core.Api.Controllers.DepotController.Get(System.String,System.String,System.String,System.String)">
+            <summary>
+            加载请求
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WeChat.Core.Api.Controllers.DepotController.GetScan(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            跟踪号请求
+            </summary>
+            <param name="appid"></param>
+            <param name="sign"></param>
+            <param name="nonce"></param>
+            <param name="timespan"></param>
+            <param name="trackNo"></param>
             <returns></returns>
         </member>
         <member name="T:WeChat.Core.Api.Controllers.DynamicsController">

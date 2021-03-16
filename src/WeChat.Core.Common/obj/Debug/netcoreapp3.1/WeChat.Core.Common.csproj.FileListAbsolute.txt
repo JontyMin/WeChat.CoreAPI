@@ -60,3 +60,4 @@ F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\obj\Debug\netcoreapp3.1\WeCha
 F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\bin\Debug\netcoreapp3.1\WeChat.Core.Common.deps.json
 F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\bin\Debug\netcoreapp3.1\WeChat.Core.Common.dll
 F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\bin\Debug\netcoreapp3.1\WeChat.Core.Common.pdb
+F:\GitHub\LZ.WeChat.CoreAPI\src\WeChat.Core.Common\obj\Debug\netcoreapp3.1\WeChat.Core.Common.csprojAssemblyReference.cache

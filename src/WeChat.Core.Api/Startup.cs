@@ -59,13 +59,11 @@ namespace WeChat.Core.Api
             Env = env;
         }
         
-        
         /// <summary>
         /// log4net²Ö´¢¿â
         /// </summary>
         public static ILoggerRepository Repository { get; set; }
         public IWebHostEnvironment Env { get; }
-
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.

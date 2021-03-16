@@ -45,7 +45,7 @@ namespace WeChat.Core.Api.Controllers
             data.msg = "OK";
             data.status = 200;
             data.success = true;
-            data.response = await _weChatSupplierService.Queryable("select * from WeChatSupplier");
+            data.response = await _weChatSupplierService.Queryable("select top 1 * from WeChatSupplier");
             return data;
         }
         

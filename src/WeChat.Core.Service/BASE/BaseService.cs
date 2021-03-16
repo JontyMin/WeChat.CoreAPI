@@ -82,6 +82,17 @@ namespace WeChat.Core.Service.BASE
         {
             return await _base.DeleteByIds(ids);
         }
+
+        /// <summary>
+        /// 条件删除
+        /// </summary>
+        /// <param name="whereExpression"></param>
+        /// <returns></returns>
+        public async Task<int> Deleteable(Expression<Func<T, bool>> whereExpression)
+        {
+            return await _base.Deleteable(whereExpression);
+        }
+
         /// <summary>
         /// 实体更新
         /// </summary>
