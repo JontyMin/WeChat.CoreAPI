@@ -162,13 +162,27 @@ namespace WeChat.Core.Api.Controllers
             foreach (var item in saleVolume3.Select(x => x.PlatformName).Distinct())
             {
                 PlatSaleModel p = new PlatSaleModel();
-                decimal monthsales = saleVolume3.First(x => x.datet == "month" && x.PlatformName == item).SaleAmount;
-                decimal todayorders = saleVolume3.First(x => x.datet == "day" && x.PlatformName == item && x.Sort==1).SaleAmount;
+                decimal monthsales = 0;
+                var m = saleVolume3.FirstOrDefault(x => x.datet == "month" && x.PlatformName == item);
+                if (m != null)
+                {
+                    monthsales = m.SaleAmount;
+                }
+
+                string daystring = DateTime.Now.ToString("yyyy-MM-dd");
+                decimal todayorders = 0;
+                var t = saleVolume3.FirstOrDefault(x => x.datet == "day" && x.PlatformName == item && x.Dates == daystring);
+                if (t != null)
+                {
+                    todayorders = t.SaleAmount;
+                }
+
                 decimal yesderdayorders = 0;
-                var d = saleVolume3.FirstOrDefault(x => x.datet == "day" && x.PlatformName == item && x.Sort == 2);
+                string yesderdaystring = DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd");
+                var d = saleVolume3.FirstOrDefault(x => x.datet == "day" && x.PlatformName == item && x.Dates == yesderdaystring);
                 if (d != null)
                 {
-                     yesderdayorders = saleVolume3.First(x => x.datet == "day" && x.PlatformName == item && x.Sort == 2).SaleAmount;
+                    yesderdayorders = d.SaleAmount;
                 }
                 p.platname = item;
                 p.todaysales = todayorders;

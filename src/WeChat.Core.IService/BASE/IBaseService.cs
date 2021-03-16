@@ -7,6 +7,17 @@ namespace WeChat.Core.IService.BASE
 {
     public interface IBaseService<T> where T : class
     {
+        #region Execute
+
+        /// <summary>
+        /// 执行sql
+        /// </summary>
+        /// <param name="sql"></param>
+        /// <returns></returns>
+        Task<int> SqlCommand(string sql);
+
+        #endregion
+
         #region Transaction
 
         /// <summary>

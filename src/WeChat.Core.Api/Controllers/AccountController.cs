@@ -220,6 +220,7 @@ namespace WeChat.Core.Api.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("RefreshToken/{token}")]
+        [ApiExplorerSettings(IgnoreApi = true)]
         public IActionResult RefreshToken(string token = "")
         {
             // 需要截取Bearer
@@ -253,7 +254,7 @@ namespace WeChat.Core.Api.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("Md5Password")]
-        //[ApiExplorerSettings(IgnoreApi = true)]
+        [ApiExplorerSettings(IgnoreApi = true)]
         public string Md5Password(string password = "")
         {
             return MD5Helper.MD5Encrypt32(password);

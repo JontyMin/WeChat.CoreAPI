@@ -343,8 +343,12 @@ namespace WeChat.Core.Api.Controllers
 
         
         /// <summary>
-        /// 加载请求
+        /// Load请求
         /// </summary>
+        /// <param name="appid">应用程序ID</param>
+        /// <param name="sign">签名</param>
+        /// <param name="nonce">随机数</param>
+        /// <param name="timespan">时间戳</param>
         /// <returns></returns>
         [HttpGet]
         public async Task<MessageModel<string>> Get(string appid,string sign,string nonce,string timespan)
@@ -361,7 +365,7 @@ namespace WeChat.Core.Api.Controllers
             if (SignCheck.ValidateSignature(sign, timespan, nonce, SecretKey))
             {
                 //await _scanningCheckTmpService.Deleteable(x => x.Id != 0);
-                var scanningCheckTmps = await _scanningCheckTmpService.Query();
+                //var scanningCheckTmps = await _scanningCheckTmpService.Query();
 
                 data.status = 200;
                 data.success = true;
@@ -375,11 +379,11 @@ namespace WeChat.Core.Api.Controllers
         /// <summary>
         /// 跟踪号请求
         /// </summary>
-        /// <param name="appid"></param>
-        /// <param name="sign"></param>
-        /// <param name="nonce"></param>
-        /// <param name="timespan"></param>
-        /// <param name="trackNo"></param>
+        /// <param name="appid">应用程序ID</param>
+        /// <param name="sign">签名</param>
+        /// <param name="nonce">随机数</param>
+        /// <param name="timespan">时间戳</param>
+        /// <param name="trackNo">运单号</param>
         /// <returns></returns>
         [HttpGet]
         [Route(nameof(GetScan))]
@@ -402,11 +406,10 @@ namespace WeChat.Core.Api.Controllers
                 scanStatus.Verify = purchaseProductsList.Any();
                 if (scanStatus.Verify)
                 {
-                    //await _superBuyerOrdersService.
-                    //scanStatus.LogisticsCompanyName =
+                    var superBuyerOrders=await _superBuyerOrdersService.Query(x => x.LogisticsBillNo == trackNo);
+                    scanStatus.LogisticsCompanyName = superBuyerOrders.FirstOrDefault()?.LogisticsCompanyName;
                 }
                 
-                   
                 data.status = 200;
                 data.success = true;
                 data.response = scanStatus;

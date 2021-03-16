@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using SqlSugar;
 using Ubiety.Dns.Core.Records.NotUsed;
 using WeChat.Core.IRepository.BASE;
 using WeChat.Core.Repository.SqlSugar;
@@ -11,6 +12,16 @@ namespace WeChat.Core.Repository.BASE
 {
     public class BaseRepository<T>:DbContext<T>,IBaseRepository<T>where T:class,new()
     {
+        /// <summary>
+        /// 执行sql语句
+        /// </summary>
+        /// <param name="sql"></param>
+        /// <returns></returns>
+        public async Task<int> SqlCommand(string sql)
+        {
+            return await Db.Ado.ExecuteCommandAsync(sql);
+        }
+
         /// <summary>
         /// 开始事务
         /// </summary>

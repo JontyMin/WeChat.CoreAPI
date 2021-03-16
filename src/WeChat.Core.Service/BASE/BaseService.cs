@@ -15,7 +15,12 @@ namespace WeChat.Core.Service.BASE
         {
             _base = baseRepository;
         }
-        
+
+        public Task<int> SqlCommand(string sql)
+        {
+            return _base.SqlCommand(sql);
+        }
+
         /// <summary>
         /// 开始事务
         /// </summary>

@@ -39,13 +39,14 @@ namespace WeChat.Core.Api.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public async Task<MessageModel<List<WeChatSupplier>>> Get()
+        public async Task<MessageModel<int>> Get()
         {
-            var data = new MessageModel<List<WeChatSupplier>>();
-            data.msg = "OK";
-            data.status = 200;
-            data.success = true;
-            data.response = await _weChatSupplierService.Queryable("select top 1 * from WeChatSupplier");
+            var data = new MessageModel<int>();
+            //data.msg = "OK";
+            //data.status = 200;
+            //data.success = true;
+            //data.response =
+            //    await _weChatSupplierService.SqlCommand("update WeChatSupplier set LoginName='测试' where id=1");
             return data;
         }
         

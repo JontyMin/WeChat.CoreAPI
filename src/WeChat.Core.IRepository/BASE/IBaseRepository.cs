@@ -3,11 +3,24 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using SqlSugar;
 
 namespace WeChat.Core.IRepository.BASE
 {
     public interface IBaseRepository<T> where T:class
     {
+
+        #region Execute
+
+        /// <summary>
+        /// 原生sql执行
+        /// </summary>
+        /// <param name="sql"></param>
+        /// <returns></returns>
+        Task<int> SqlCommand(string sql);
+
+        #endregion
+
         #region Transaction
 
         /// <summary>

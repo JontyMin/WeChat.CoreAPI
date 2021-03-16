@@ -55,29 +55,21 @@ namespace WeChat.Core.Api.Middleware
             request.Body.Seek(0, SeekOrigin.Begin);
 
             var originalBodyStream = httpContext.Response.Body;
-            using (var responseBody = new MemoryStream())
-            {
-                httpContext.Response.Body = responseBody;
-                await _next(httpContext);
+            await using var responseBody = new MemoryStream();
+            httpContext.Response.Body = responseBody;
+            await _next(httpContext);
 
-                var response = httpContext.Response;
-                response.Body.Seek(0, SeekOrigin.Begin);
-                string text = string.Empty;
-                if (response.Body.Length<10000)
-                {
-                    //转化为字符串
-                    await new StreamReader(response.Body).ReadToEndAsync();
-                }
-                
-                //从新设置偏移量0
-                response.Body.Seek(0, SeekOrigin.Begin);
+            var response = httpContext.Response;
+            response.Body.Seek(0, SeekOrigin.Begin);
+            string text=await new StreamReader(response.Body).ReadToEndAsync();
+            //从新设置偏移量0
+            response.Body.Seek(0, SeekOrigin.Begin);
 
-                //记录返回值
-                var responsestr = $"{response.StatusCode}: {text}";
-                _logger.Info(typeof(LogReqResponseMiddleware), "Response:" + responsestr);
+            //记录返回值
+            var responsestr = $"{response.StatusCode}: {text}";
+            _logger.Info(typeof(LogReqResponseMiddleware), "Response:" + responsestr);
 
-                await responseBody.CopyToAsync(originalBodyStream);
-            }
+            await responseBody.CopyToAsync(originalBodyStream);
         }
     }
 
