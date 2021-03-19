@@ -138,19 +138,29 @@
         </member>
         <member name="M:WeChat.Core.Api.Controllers.DepotController.Get(System.String,System.String,System.String,System.String)">
             <summary>
-            加载请求
+            Load请求
             </summary>
+            <param name="appid">应用程序ID</param>
+            <param name="sign">签名</param>
+            <param name="nonce">随机数</param>
+            <param name="timespan">时间戳</param>
             <returns></returns>
         </member>
         <member name="M:WeChat.Core.Api.Controllers.DepotController.GetScan(System.String,System.String,System.String,System.String,System.String)">
             <summary>
             跟踪号请求
             </summary>
-            <param name="appid"></param>
-            <param name="sign"></param>
-            <param name="nonce"></param>
-            <param name="timespan"></param>
-            <param name="trackNo"></param>
+            <param name="appid">应用程序ID</param>
+            <param name="sign">签名</param>
+            <param name="nonce">随机数</param>
+            <param name="timespan">时间戳</param>
+            <param name="trackNo">运单号</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeChat.Core.Api.Controllers.DepotController.ScanAsync(WeChat.Core.Model.ViewModel.ERP.SignModel)">
+            <summary>
+            同步数据
+            </summary>
             <returns></returns>
         </member>
         <member name="T:WeChat.Core.Api.Controllers.DynamicsController">

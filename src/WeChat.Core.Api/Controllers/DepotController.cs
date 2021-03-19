@@ -2,11 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WeChat.Core.Api.Log;
 using WeChat.Core.Common.Helper;
 using WeChat.Core.Common.HttpContextUser;
 using WeChat.Core.Common.Redis;
@@ -41,6 +43,7 @@ namespace WeChat.Core.Api.Controllers
         private readonly IPurchaseOrdersService _purchaseOrdersService;
         private readonly IPlatformInfoService _platformInfoService;
         private readonly IRedisCacheManager _redisCache;
+        private readonly ILoggerHelper _loggerHelper;
         private readonly IUserService _userService;
         private readonly IUser _user;
 
@@ -51,6 +54,7 @@ namespace WeChat.Core.Api.Controllers
             ISuperBuyerOrdersService superBuyerOrdersService,
             IPlatformInfoService platformInfoService,
             IRedisCacheManager redisCache,
+            ILoggerHelper loggerHelper,
             IUserService userService,
             IUser user)
         {
@@ -65,6 +69,7 @@ namespace WeChat.Core.Api.Controllers
             _superBuyerOrdersService =
                 superBuyerOrdersService ?? throw new ArgumentException(nameof(superBuyerOrdersService));
             _platformInfoService = platformInfoService ?? throw new ArgumentException(nameof(platformInfoService));
+            _loggerHelper = loggerHelper ?? throw new ArgumentException(nameof(loggerHelper));
             _userService = userService ?? throw new ArgumentNullException(nameof(userService));
             _redisCache = redisCache ?? throw new ArgumentException(nameof(redisCache));
             _user = user ?? throw new ArgumentNullException(nameof(user));
@@ -365,6 +370,7 @@ namespace WeChat.Core.Api.Controllers
             if (SignCheck.ValidateSignature(sign, timespan, nonce, SecretKey))
             {
                 //await _scanningCheckTmpService.Deleteable(x => x.Id != 0);
+                var result=await _scanningCheckTmpService.SqlCommand("delete from ScanningCheckTmp");
                 //var scanningCheckTmps = await _scanningCheckTmpService.Query();
 
                 data.status = 200;
@@ -391,7 +397,7 @@ namespace WeChat.Core.Api.Controllers
             string trackNo)
         {
 
-            var data = new MessageModel<ScanStatus> {status = 400, msg = "错误请求"};
+            var data = new MessageModel<ScanStatus> {status = 400, msg = "错误请求",response = new ScanStatus()};
             if (appid != AccessKey)
             {
                 return data;
@@ -399,31 +405,87 @@ namespace WeChat.Core.Api.Controllers
 
             if (SignCheck.ValidateSignature(sign, timespan, nonce, SecretKey))
             {
-                var scanStatus = new ScanStatus();
-                var purchaseProductsList =await _purchaseProductsService.Query(x => x.PurchaseTrackNo.Contains(trackNo));
-                scanStatus.PurchaseNo =
-                    purchaseProductsList.Any() ? purchaseProductsList.FirstOrDefault()?.PurchaseNo : "";
-                scanStatus.Verify = purchaseProductsList.Any();
-                if (scanStatus.Verify)
+                try
                 {
-                    var superBuyerOrders=await _superBuyerOrdersService.Query(x => x.LogisticsBillNo == trackNo);
-                    scanStatus.LogisticsCompanyName = superBuyerOrders.FirstOrDefault()?.LogisticsCompanyName;
+                    var scanStatus = new ScanStatus();
+                    var purchaseProductsList =
+                        await _purchaseProductsService.Query(x => x.PurchaseTrackNo.Contains(trackNo.Trim()));
+
+                    scanStatus.PurchaseNo =
+                        purchaseProductsList.Any() ? purchaseProductsList.FirstOrDefault()?.PurchaseNo : "";
+
+                    scanStatus.Verify = purchaseProductsList.Any();
+                    
+                    if (scanStatus.Verify)
+                    {
+                        var superBuyerOrders =
+                            await _superBuyerOrdersService.Query(x => x.LogisticsBillNo == trackNo.Trim());
+                        scanStatus.LogisticsCompanyName =
+                            superBuyerOrders.FirstOrDefault()?.LogisticsCompanyName == null
+                                ? ""
+                                : superBuyerOrders.FirstOrDefault()?.LogisticsCompanyName;
+                    }
+
+                    ScanningCheckTmp scanning = new ScanningCheckTmp()
+                    {
+                        OrderNo = scanStatus.PurchaseNo,
+                        PurchaseTrackNo = trackNo,
+                        IsCheck = scanStatus.Verify,
+                        CheckText = scanStatus.Verify ? "已核实" : "未核实",
+                        AddTime = DateTime.Now
+                    };
+
+                    await _scanningCheckTmpService.Add(scanning);
+
+                    data.status = 200;
+                    data.success = true;
+                    data.response = scanStatus;
+                    data.msg = "获取成功";
+                    return data;
                 }
+                catch (Exception e)
+                {
+                    _loggerHelper.Error(nameof(GetScan), e.Message);
+                    return data;
+                }
+            }
+            return data;
+        }
+
+
+        /// <summary>
+        /// 同步数据
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        [Route(nameof(ScanAsync))]
+        public async Task<MessageModel<string>> ScanAsync(SignModel model)
+        {
+            var data = new MessageModel<string> { status = 400, msg = "错误请求" };
+            if (model.appid != AccessKey)
+            {
+                return data;
+            }
+
+            if (SignCheck.ValidateSignature(model.sign, model.timespan, model.nonce, SecretKey))
+            {
+                var num=await _scanningCheckTmpService.SqlCommand(
+                    @"INSERT INTO ScanningCheck(OrderNo,PurchaseTrackNo,AddTime,IsCheck,CheckText)
+            SELECT sc.OrderNo,sc.PurchaseTrackNo,sc.AddTime,sc.IsCheck,sc.CheckText FROM ScanningCheckTmp sc
+            LEFT JOIN dbo.ScanningCheck s ON sc.PurchaseTrackNo=s.PurchaseTrackNo
+            WHERE s.OrderNo IS NULL");
+
+                await _scanningCheckTmpService.SqlCommand("delete from ScanningCheckTmp");
                 
                 data.status = 200;
-                data.success = true;
-                data.response = scanStatus;
-                data.msg = "获取成功";
+                data.success = num > 0;
+                data.msg = "同步完成";
                 return data;
             }
 
             return data;
         }
-
         
-        
-        #region Private Method
-        
-        #endregion
+       
     }
 }

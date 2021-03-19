@@ -15,7 +15,18 @@
         /// <summary>
         /// 快递公司名称
         /// </summary>
-        public string LogisticsCompanyName { get; set; }
+        public string LogisticsCompanyName { get; set; } = "";
+
+    }
+
+    public class SignModel
+    {
+        public string appid { get; set; }
+
+        public string sign { get; set; }
+
+        public string nonce { get; set; }
         
+        public string timespan { get; set; }
     }
 }

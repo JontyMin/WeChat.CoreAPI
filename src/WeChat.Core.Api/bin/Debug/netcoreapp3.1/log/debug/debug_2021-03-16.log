@@ -172,3 +172,611 @@
 【执行时间】[23592]毫秒                                   
 【debug位置】System.String 属性[(null)]                                   
 【debug描述】更新动态销售额:2021/3/16 9:51:01
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:07:45,530                                   
+【执行时间】[7241]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:07:45,560                                   
+【执行时间】[7271]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:07:47,083                                   
+【执行时间】[8794]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/16 11:07:47
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:07:48,656                                   
+【执行时间】[10367]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=CB3F11DBA7C7A3B25B037464BBDBBB90&nonce=527139&timespan=1615864068 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:08:04,471                                   
+【执行时间】[26182]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/16 11:08:04
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:08:44,040                                   
+【执行时间】[65751]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "已清空",
+  "response": null
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:09:12,516                                   
+【执行时间】[94227]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=385F1F0B8FCA82ADB5DE361660664EDF&nonce=336260&timespan=1615864149&trackNo=773086310095817 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:09:31,686                                   
+【执行时间】[113397]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "已清空",
+  "response": null
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:10:02,919                                   
+【执行时间】[144630]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=385F1F0B8FCA82ADB5DE361660664EDF&nonce=336260&timespan=1615864149&trackNo=773086310095817 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:10:56,674                                   
+【执行时间】[3465]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:10:56,711                                   
+【执行时间】[3502]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:10:59,782                                   
+【执行时间】[6573]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/16 11:10:59
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:11:07,903                                   
+【执行时间】[14694]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/16 11:11:07
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:11:41,465                                   
+【执行时间】[6628]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:11:41,545                                   
+【执行时间】[6708]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:11:42,624                                   
+【执行时间】[7787]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=322C4E14A055F8B3F5854FBA657DF6C1&nonce=112411&timespan=1615864302 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:12:25,896                                   
+【执行时间】[51059]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/16 11:12:25
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:12:26,228                                   
+【执行时间】[51391]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "已清空",
+  "response": null
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:12:32,482                                   
+【执行时间】[57644]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/GetScan GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=0B6975A3F2FEE0498D71C89B6E77117D&nonce=936969&timespan=1615864335&trackNo=773086310095817 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:12:39,918                                   
+【执行时间】[65081]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/16 11:12:39
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:13:29,763                                   
+【执行时间】[114926]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "purchaseNo": "1640423018821027574",
+    "verify": true,
+    "logisticsCompanyName": "申通快递(STO)"
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:17:41,204                                   
+【执行时间】[366367]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/16 11:17:41
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:17:49,407                                   
+【执行时间】[374570]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/16 11:17:49
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:37:38,805                                   
+【执行时间】[2518]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=2AA4417266054AB0A9E77AE90837EAC0&nonce=932593&timespan=1615865856 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:37:40,089                                   
+【执行时间】[3801]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:37:40,089                                   
+【执行时间】[3801]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:37:52,911                                   
+【执行时间】[16623]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "已清空",
+  "response": null
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:37:54,548                                   
+【执行时间】[18260]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/16 11:37:54
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:38:02,407                                   
+【执行时间】[26120]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/16 11:38:02
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:38:04,675                                   
+【执行时间】[28388]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/GetScan GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=88BE36CF6A670D9B92F26390D0E2F89F&nonce=436043&timespan=1615865884&trackNo=773086310095817 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:39:03,515                                   
+【执行时间】[87228]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "purchaseNo": "1640423018821027574",
+    "verify": true,
+    "logisticsCompanyName": "申通快递(STO)"
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:39:24,331                                   
+【执行时间】[108043]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ScanAsync POST  {"appid":"M7QDFZ1u5wcarlT3opZNH40brk","sign":"EA46D0D0C0E4BD46543EC35CD2C09534","nonce":"383494","timespan":"1615865952"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:39:24,351                                   
+【执行时间】[108064]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:400: {
+  "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+  "title": "One or more validation errors occurred.",
+  "status": 400,
+  "traceId": "|e6e05785-4d575b5d598b5602.",
+  "errors": {
+    "sign": [
+      "The sign field is required."
+    ],
+    "appid": [
+      "The appid field is required."
+    ],
+    "nonce": [
+      "The nonce field is required."
+    ],
+    "timespan": [
+      "The timespan field is required."
+    ]
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:45:00,403                                   
+【执行时间】[3190]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:45:00,481                                   
+【执行时间】[3269]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:45:03,845                                   
+【执行时间】[6633]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/16 11:45:03
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 11:45:11,590                                   
+【执行时间】[14378]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/16 11:45:11
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:46:02,187                                   
+【执行时间】[64974]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=A0824A7FD09CC917DC13E86F9DDFC43F&nonce=339930&timespan=1615866361 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:46:08,591                                   
+【执行时间】[71378]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "已清空",
+  "response": null
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:46:16,252                                   
+【执行时间】[79040]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/GetScan GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=F4A4815800C02A8167ECC2578DE4CBD9&nonce=332543&timespan=1615866376&trackNo=773086310095817 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:46:18,842                                   
+【执行时间】[81629]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "purchaseNo": "1640423018821027574",
+    "verify": true,
+    "logisticsCompanyName": "申通快递(STO)"
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 11:46:32,659                                   
+【执行时间】[95447]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ScanAsync POST  {"appid":"M7QDFZ1u5wcarlT3opZNH40brk","sign":"B50644260394B335C359422EA7D339E9","nonce":"015838","timespan":"1615866386"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:33:55,720                                   
+【执行时间】[4452]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:33:55,748                                   
+【执行时间】[4481]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:35:30,579                                   
+【执行时间】[2999]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:35:30,696                                   
+【执行时间】[3116]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:35:34,570                                   
+【执行时间】[6990]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/16 13:35:34
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:35:42,744                                   
+【执行时间】[15165]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=6AF81179963F43592E205C941860A401&nonce=125113&timespan=1615872942 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:35:48,818                                   
+【执行时间】[21238]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/16 13:35:48
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:35:52,256                                   
+【执行时间】[24676]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "已清空",
+  "response": null
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:36:17,325                                   
+【执行时间】[49746]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/GetScan GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=4BCC624B84DED8F1509AA78A9740A69A&nonce=363703&timespan=1615872971&trackNo=773086310095817 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:36:21,605                                   
+【执行时间】[54026]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "purchaseNo": "1640423018821027574",
+    "verify": true,
+    "logisticsCompanyName": "申通快递(STO)"
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:36:33,721                                   
+【执行时间】[66142]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ScanAsync POST  {"appid":"M7QDFZ1u5wcarlT3opZNH40brk","sign":"FBF48D18FE258C7AEE5930862B4EA04A","nonce":"272793","timespan":"1615872988"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:39:20,375                                   
+【执行时间】[3648]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:39:20,429                                   
+【执行时间】[3701]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:39:23,940                                   
+【执行时间】[7213]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/16 13:39:23
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:39:30,407                                   
+【执行时间】[13679]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=1873CE24886225A74A0FF49BE10FFAA9&nonce=547665&timespan=1615873170 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:39:39,364                                   
+【执行时间】[22637]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/16 13:39:39
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:39:39,411                                   
+【执行时间】[22683]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:500: {
+  "message": "Cannot find the object \"ScanningCheckTmp\" because it does not exist or you do not have permissions.",
+  "developmentMessage": "   at SqlSugar.AdoProvider.ExecuteCommandAsync(String sql, SugarParameter[] parameters)\r\n   at WeChat.Core.Repository.BASE.BaseRepository`1.SqlCommand(String sql) in F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Repository\\BASE\\BaseRepository.cs:line 22\r\n   at WeChat.Core.Api.Controllers.DepotController.Get(String appid, String sign, String nonce, String timespan) in F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Api\\Controllers\\DepotController.cs:line 369\r\n   at lambda_method(Closure , Object )\r\n   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:41:08,358                                   
+【执行时间】[3636]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:41:08,452                                   
+【执行时间】[3730]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:41:13,654                                   
+【执行时间】[8932]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/16 13:41:13
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:41:21,059                                   
+【执行时间】[16336]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=07003FC00898F2552D6EFCC34328F35C&nonce=610927&timespan=1615873276 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:41:27,155                                   
+【执行时间】[22433]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/16 13:41:27
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:41:27,907                                   
+【执行时间】[23185]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:500: {
+  "message": "Cannot find the object \"ScanningCheckTmp\" because it does not exist or you do not have permissions.",
+  "developmentMessage": "   at SqlSugar.AdoProvider.ExecuteCommandAsync(String sql, SugarParameter[] parameters)\r\n   at WeChat.Core.Repository.BASE.BaseRepository`1.SqlCommand(String sql) in F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Repository\\BASE\\BaseRepository.cs:line 22\r\n   at WeChat.Core.Api.Controllers.DepotController.Get(String appid, String sign, String nonce, String timespan) in F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Api\\Controllers\\DepotController.cs:line 369\r\n   at lambda_method(Closure , Object )\r\n   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:41:46,509                                   
+【执行时间】[41787]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=07003FC00898F2552D6EFCC34328F35C&nonce=610927&timespan=1615873276 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:41:51,010                                   
+【执行时间】[46288]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:500: {
+  "message": "Cannot find the object \"ScanningCheckTmp\" because it does not exist or you do not have permissions.",
+  "developmentMessage": "   at SqlSugar.AdoProvider.ExecuteCommandAsync(String sql, SugarParameter[] parameters)\r\n   at WeChat.Core.Repository.BASE.BaseRepository`1.SqlCommand(String sql) in F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Repository\\BASE\\BaseRepository.cs:line 22\r\n   at WeChat.Core.Api.Controllers.DepotController.Get(String appid, String sign, String nonce, String timespan) in F:\\GitHub\\LZ.WeChat.CoreAPI\\src\\WeChat.Core.Api\\Controllers\\DepotController.cs:line 369\r\n   at lambda_method(Closure , Object )\r\n   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:44:48,585                                   
+【执行时间】[4922]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:44:48,689                                   
+【执行时间】[5025]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:44:51,951                                   
+【执行时间】[8288]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态订单:2021/3/16 13:44:51
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:45:01,451                                   
+【执行时间】[17787]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新动态销售额:2021/3/16 13:45:01
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:45:07,387                                   
+【执行时间】[23723]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=CF96EC3C70E0E1494BBF0B4666421C0C&nonce=306318&timespan=1615873501 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:45:28,103                                   
+【执行时间】[44439]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "已清空",
+  "response": null
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:45:41,345                                   
+【执行时间】[57682]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/GetScan GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=AD03369774E58CF144105C44892037A1&nonce=777838&timespan=1615873541&trackNo=773086310095817 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:46:30,025                                   
+【执行时间】[106362]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "purchaseNo": "1640423018821027574",
+    "verify": true,
+    "logisticsCompanyName": "申通快递(STO)"
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:46:41,409                                   
+【执行时间】[117746]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/ScanAsync POST  {"appid":"M7QDFZ1u5wcarlT3opZNH40brk","sign":"89545DDEDD5F178674E8F14AD4101147","nonce":"604360","timespan":"1615873597"}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:48:14,811                                   
+【执行时间】[211148]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": false,
+  "msg": "同步完成",
+  "response": null
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:48:22,657                                   
+【执行时间】[218994]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Request:http localhost:5000 /api/Depot/GetScan GET ?appid=M7QDFZ1u5wcarlT3opZNH40brk&sign=5BDCF2E97152D23821786B04C0BB93AB&nonce=016118&timespan=1615873702&trackNo=773086310095817 
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2021-03-16 13:48:25,082                                   
+【执行时间】[221419]毫秒                                   
+【debug位置】WeChat.Core.Api.Middleware.LogReqResponseMiddleware 属性[(null)]                                   
+【debug描述】Response:200: {
+  "status": 200,
+  "success": true,
+  "msg": "获取成功",
+  "response": {
+    "purchaseNo": "1640423018821027574",
+    "verify": true,
+    "logisticsCompanyName": "申通快递(STO)"
+  }
+}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:51:28,084                                   
+【执行时间】[4045]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】更新Token:
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2021-03-16 13:51:28,115                                   
+【执行时间】[4076]毫秒                                   
+【debug位置】System.String 属性[(null)]                                   
+【debug描述】获取缓存
